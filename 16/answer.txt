@@ -1,0 +1,8 @@
+using input: ":::::::::::::::::admin<true:::::::::::::"
+encrypted response (hex):
+0xeeb4633580fe060ab522568603a26d9046492c698e79841d0bfe066e83ce5a808e033e442c9df6f29dc7a33e4e1f99490fca2fbf0f5cacb494721300b03ab67bdcf5b9f3f32da39fd69b2ba4539b258a971f06ae771746d292541dad8236a0f874f4c8209649054c49167e42ba9e1bb743779e6190946c5030c81691821fead1
+result of decryption test on this result as-is: false
+using this bitmask to muck with the cyphertext (at block #3): (hex) 0x01000000000001000000000100000000
+encrypted response after mucking with it (hex):
+0xeeb4633580fe060ab522568603a26d9046492c698e79841d0bfe066e83ce5a808f033e442c9df7f29dc7a33f4e1f99490fca2fbf0f5cacb494721300b03ab67bdcf5b9f3f32da39fd69b2ba4539b258a971f06ae771746d292541dad8236a0f874f4c8209649054c49167e42ba9e1bb743779e6190946c5030c81691821fead1
+result of decryption test on the mucked response: true **pass

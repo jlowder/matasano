@@ -1,0 +1,389 @@
+block size appears to be 16 bytes
+a block of encrypted padding looks like this: #"\"5\211Xh\2304R\223\37\324[6n\226\16"
+it appears to be ECB
+prefix size looks like 124 bytes
+delta prefix size is 4
+R
+Ro
+Rol
+Roll
+Rolli
+Rollin
+Rollin'
+Rollin' 
+Rollin' i
+Rollin' in
+Rollin' in 
+Rollin' in m
+Rollin' in my
+Rollin' in my 
+Rollin' in my 5
+Rollin' in my 5.
+Rollin' in my 5.0
+Rollin' in my 5.0
+
+Rollin' in my 5.0
+W
+Rollin' in my 5.0
+Wi
+Rollin' in my 5.0
+Wit
+Rollin' in my 5.0
+With
+Rollin' in my 5.0
+With 
+Rollin' in my 5.0
+With m
+Rollin' in my 5.0
+With my
+Rollin' in my 5.0
+With my 
+Rollin' in my 5.0
+With my r
+Rollin' in my 5.0
+With my ra
+Rollin' in my 5.0
+With my rag
+Rollin' in my 5.0
+With my rag-
+Rollin' in my 5.0
+With my rag-t
+Rollin' in my 5.0
+With my rag-to
+Rollin' in my 5.0
+With my rag-top
+Rollin' in my 5.0
+With my rag-top 
+Rollin' in my 5.0
+With my rag-top d
+Rollin' in my 5.0
+With my rag-top do
+Rollin' in my 5.0
+With my rag-top dow
+Rollin' in my 5.0
+With my rag-top down
+Rollin' in my 5.0
+With my rag-top down 
+Rollin' in my 5.0
+With my rag-top down s
+Rollin' in my 5.0
+With my rag-top down so
+Rollin' in my 5.0
+With my rag-top down so 
+Rollin' in my 5.0
+With my rag-top down so m
+Rollin' in my 5.0
+With my rag-top down so my
+Rollin' in my 5.0
+With my rag-top down so my 
+Rollin' in my 5.0
+With my rag-top down so my h
+Rollin' in my 5.0
+With my rag-top down so my ha
+Rollin' in my 5.0
+With my rag-top down so my hai
+Rollin' in my 5.0
+With my rag-top down so my hair
+Rollin' in my 5.0
+With my rag-top down so my hair 
+Rollin' in my 5.0
+With my rag-top down so my hair c
+Rollin' in my 5.0
+With my rag-top down so my hair ca
+Rollin' in my 5.0
+With my rag-top down so my hair can
+Rollin' in my 5.0
+With my rag-top down so my hair can 
+Rollin' in my 5.0
+With my rag-top down so my hair can b
+Rollin' in my 5.0
+With my rag-top down so my hair can bl
+Rollin' in my 5.0
+With my rag-top down so my hair can blo
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+T
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+Th
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The 
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The g
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The gi
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The gir
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girl
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girli
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlie
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies 
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies o
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on 
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on s
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on st
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on sta
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on stan
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on stand
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standb
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby 
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby w
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby wa
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby wav
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby wavi
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby wavin
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby waving
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby waving 
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby waving j
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby waving ju
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby waving jus
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby waving just
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby waving just 
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby waving just t
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby waving just to
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby waving just to 
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby waving just to s
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby waving just to sa
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby waving just to say
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby waving just to say 
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby waving just to say h
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby waving just to say hi
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby waving just to say hi
+
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby waving just to say hi
+D
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby waving just to say hi
+Di
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby waving just to say hi
+Did
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby waving just to say hi
+Did 
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby waving just to say hi
+Did y
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby waving just to say hi
+Did yo
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby waving just to say hi
+Did you
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby waving just to say hi
+Did you 
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby waving just to say hi
+Did you s
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby waving just to say hi
+Did you st
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby waving just to say hi
+Did you sto
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby waving just to say hi
+Did you stop
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby waving just to say hi
+Did you stop?
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby waving just to say hi
+Did you stop? 
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby waving just to say hi
+Did you stop? N
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby waving just to say hi
+Did you stop? No
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby waving just to say hi
+Did you stop? No,
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby waving just to say hi
+Did you stop? No, 
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby waving just to say hi
+Did you stop? No, I
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby waving just to say hi
+Did you stop? No, I 
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby waving just to say hi
+Did you stop? No, I j
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby waving just to say hi
+Did you stop? No, I ju
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby waving just to say hi
+Did you stop? No, I jus
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby waving just to say hi
+Did you stop? No, I just
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby waving just to say hi
+Did you stop? No, I just 
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby waving just to say hi
+Did you stop? No, I just d
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby waving just to say hi
+Did you stop? No, I just dr
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby waving just to say hi
+Did you stop? No, I just dro
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby waving just to say hi
+Did you stop? No, I just drov
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby waving just to say hi
+Did you stop? No, I just drove
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby waving just to say hi
+Did you stop? No, I just drove 
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby waving just to say hi
+Did you stop? No, I just drove b
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby waving just to say hi
+Did you stop? No, I just drove by
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby waving just to say hi
+Did you stop? No, I just drove by
+
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby waving just to say hi
+Did you stop? No, I just drove by
+
+
+
+Decoded byte string:
+#"Rollin' in my 5.0\nWith my rag-top down so my hair can blow\nThe girlies on standby waving just to say hi\nDid you stop? No, I just drove by\n\1"

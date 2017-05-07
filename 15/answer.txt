@@ -1,0 +1,8 @@
+attempting to unpad #"ICE ICE BABY\4\4\4\4"
+#"ICE ICE BABY"
+attempting to unpad #"ICE ICE BABY\5\5\5\5"
+invalid-pad: The PKCS7 padding is not correct on #"ICE ICE BABY\5\5\5\5"
+#f
+attempting to unpad #"ICE ICE BABY\1\2\3\4"
+invalid-pad: The PKCS7 padding is not correct on #"ICE ICE BABY\1\2\3\4"
+#f

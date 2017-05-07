@@ -1,0 +1,9 @@
+Using message #"But you seem like clean and virtuous boys."
+Authenticated signature is b91fe08cc8e2ccb79683a56fc2ed14df0e76206c
+signature is valid
+changing one bit in the signature: b91fe08cc8e2ccb79683a56fc2ed14df0e76206d
+checking mucked signature with valid message: invalid
+changing one bit in the message: #"But you seem like clean and virtuous boys/"
+checking valid signature against mucked message: invalid
+trying to fabricate a MAC: e23cecc4a6164a77edbb9c0fca9b608728361594
+checking my faked MAC: invalid

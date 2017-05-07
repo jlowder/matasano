@@ -1,0 +1,451 @@
+Answers for set3:
+
+// ------------------------------------------------------------
+
+17. Output of running racket on "17/test.rkt":
+
+"000000Now that the party is jumping"
+"000001With the bass kicked in and the Vega's are pumpin'"
+"000002Quick to the point, to the point, no faking"
+"000003Cooking MC's like a pound of bacon"
+"000004Burning 'em, if you ain't quick and nimble"
+"000005I go crazy when I hear a cymbal"
+"000006And a high hat with a souped up tempo"
+"000007I'm on a roll, it's time to go solo"
+"000008ollin' in my five point oh"
+"000009ith my rag-top down so my hair can blow"
+
+// ------------------------------------------------------------
+
+18. Output of running racket on "18/test.rkt":
+
+decrypting input data: "Yo, VIP Let's kick it Ice, Ice, baby Ice, Ice, baby "
+
+miscellaneous strings encrypted / decrypted with nonce = #"\0\0\0\0\0\0\0\0" and key = #"YELLOW SUBMARINE"
+encrypting: #"The 500 Hats of Bartholomew Cubbins" -> #"\"\271\256k\232\222v\302\253\316w.L|\245R\220\215\36\250\360\2~\261\242\277h\263\354\233\21zD\316\375"
+encrypting: #"And To Think That I Saw It On Mulberry Street" -> #"7\277\257k\373\315f\266\213\306m6LG\253\23\246\314%\374\313\fe\376\206\256?\334\301\316>mA\302\353\271c\2\27\30\267\250\322C\306"
+encrypting: #"Bartholomew and the Oobleck" -> #"4\260\271?\307\315*\215\216\312t}\r}\247R\246\204\t\374\327\2p\262\252\271t"
+encrypting: #"The Butter Battle Book" -> #"\"\271\256k\355\3272\226\206\335#\37\rg\267\36\267\314.\263\367\6"
+encrypting: #"The Cat in the Hat Songbook" -> #"\"\271\256k\354\3032\302\212\301#)\4v\343:\263\230L\217\367\3u\274\240\265t"
+encrypting: #"Daisy-Head Mayzie" -> #"2\260\2428\326\217\16\207\202\313#\20\rj\271\e\267"
+encrypting: #"Did I Ever Tell You How Lucky You Are?" -> #"2\270\257k\346\202\3\224\206\335#\t\t\177\257R\213\203\31\374\320\2e\376\203\257|\370\326\316*wX\200\317\271tD"
+encrypting: #"Dr. Seuss's Sleep Book" -> #"2\243\345k\374\3073\221\220\210p}?\177\246\27\242\314.\263\367\6"
+encrypting: #"Gerald McBoing Boing" -> #"1\264\271*\303\306f\257\200\355l4\2t\3430\275\205\2\273"
+encrypting: #"Horton Hatches the Egg" -> #">\276\271?\300\314f\252\202\333`5\t`\343\6\272\211L\231\377\n"
+encrypting: #"Horton Hears A Who!" -> #">\276\271?\300\314f\252\206\316q.LR\343%\272\203M"
+encrypting: #"How the Grinch Stole Christmas" -> #">\276\274k\333\312#\302\244\335j3\17{\343!\246\203\0\271\270.z\254\246\251k\376\316\235"
+encrypting: #"Hunches in Bunches" -> #">\244\245(\307\3075\302\212\301#\37\31}\240\32\267\237"
+encrypting: #"I Can Lick 30 Tigers Today! and Other Stories" -> #"?\361\210*\301\202\n\213\200\304#n\\3\227\e\265\211\36\257\2709}\272\256\243>\263\316\200\278b\324\346\256c[d?\254\250\336C\301"
+encrypting: #"I Had Trouble in Getting to Solla Sollew" -> #"?\361\203*\313\202\22\220\214\332a1\t3\252\34\362\253\t\250\354\4|\271\357\256p\263\374\201\37tL\200\335\244}\27R<"
+encrypting: #"If I Ran the Circus" -> #"?\267\353\2\217\360'\214\303\333k8LP\252\0\261\231\37"
+encrypting: #"If I Ran the Zoo" -> #"?\267\353\2\217\360'\214\303\333k8LI\254\35"
+encrypting: #"The King's Stilts" -> #"\"\271\256k\344\313(\205\304\334#\16\30z\257\6\241"
+encrypting: #"The Lorax" -> #"\"\271\256k\343\3154\203\233"
+encrypting: #"McElligot's Pool" -> #";\262\216'\303\313!\215\227\210p}<|\254\36"
+encrypting: #"My Book About Me" -> #";\250\353\t\300\315-\302\242\315l(\0303\216\27"
+encrypting: #"Oh, the Places You'll Go!" -> #"9\271\347k\333\312#\302\263\303b>\t`\343+\275\231K\260\364MU\261\356"
+encrypting: #"On Beyond Zebra!" -> #"9\277\353\t\312\333)\214\207\217Y8\16a\242S"
+encrypting: #"Scrambled Eggs Super!" -> #"%\262\271*\302\300*\207\207\217F:\v`\343!\247\234\t\256\271"
+encrypting: #"The Sneetches and Other Stories" -> #"\"\271\256k\374\314#\207\227\314k8\0373\242\34\266\314#\250\360\b`\376\234\256p\341\306\213\0"
+encrypting: #"Thidwick the Big-Hearted Moose" -> #"\"\271\242/\330\313%\211\303\333k8LQ\252\25\377\244\t\275\352\31w\272\357\227p\374\334\213"
+encrypting: #"Yertle the Turtle and Other Stories" -> #"/\264\271?\303\307f\226\213\312#\t\31a\267\36\267\314\r\262\374M]\252\247\277m\263\374\232\34jD\305\375"
+decrypting #"\"\271\256k\232\222v\302\253\316w.L|\245R\220\215\36\250\360\2~\261\242\277h\263\354\233\21zD\316\375" -> #"The 500 Hats of Bartholomew Cubbins"
+decrypting #"7\277\257k\373\315f\266\213\306m6LG\253\23\246\314%\374\313\fe\376\206\256?\334\301\316>mA\302\353\271c\2\27\30\267\250\322C\306" -> #"And To Think That I Saw It On Mulberry Street"
+decrypting #"4\260\271?\307\315*\215\216\312t}\r}\247R\246\204\t\374\327\2p\262\252\271t" -> #"Bartholomew and the Oobleck"
+decrypting #"\"\271\256k\355\3272\226\206\335#\37\rg\267\36\267\314.\263\367\6" -> #"The Butter Battle Book"
+decrypting #"\"\271\256k\354\3032\302\212\301#)\4v\343:\263\230L\217\367\3u\274\240\265t" -> #"The Cat in the Hat Songbook"
+decrypting #"2\260\2428\326\217\16\207\202\313#\20\rj\271\e\267" -> #"Daisy-Head Mayzie"
+decrypting #"2\270\257k\346\202\3\224\206\335#\t\t\177\257R\213\203\31\374\320\2e\376\203\257|\370\326\316*wX\200\317\271tD" -> #"Did I Ever Tell You How Lucky You Are?"
+decrypting #"2\243\345k\374\3073\221\220\210p}?\177\246\27\242\314.\263\367\6" -> #"Dr. Seuss's Sleep Book"
+decrypting #"1\264\271*\303\306f\257\200\355l4\2t\3430\275\205\2\273" -> #"Gerald McBoing Boing"
+decrypting #">\276\271?\300\314f\252\202\333`5\t`\343\6\272\211L\231\377\n" -> #"Horton Hatches the Egg"
+decrypting #">\276\271?\300\314f\252\206\316q.LR\343%\272\203M" -> #"Horton Hears A Who!"
+decrypting #">\276\274k\333\312#\302\244\335j3\17{\343!\246\203\0\271\270.z\254\246\251k\376\316\235" -> #"How the Grinch Stole Christmas"
+decrypting #">\244\245(\307\3075\302\212\301#\37\31}\240\32\267\237" -> #"Hunches in Bunches"
+decrypting #"?\361\210*\301\202\n\213\200\304#n\\3\227\e\265\211\36\257\2709}\272\256\243>\263\316\200\278b\324\346\256c[d?\254\250\336C\301" -> #"I Can Lick 30 Tigers Today! and Other Stories"
+decrypting #"?\361\203*\313\202\22\220\214\332a1\t3\252\34\362\253\t\250\354\4|\271\357\256p\263\374\201\37tL\200\335\244}\27R<" -> #"I Had Trouble in Getting to Solla Sollew"
+decrypting #"?\267\353\2\217\360'\214\303\333k8LP\252\0\261\231\37" -> #"If I Ran the Circus"
+decrypting #"?\267\353\2\217\360'\214\303\333k8LI\254\35" -> #"If I Ran the Zoo"
+decrypting #"\"\271\256k\344\313(\205\304\334#\16\30z\257\6\241" -> #"The King's Stilts"
+decrypting #"\"\271\256k\343\3154\203\233" -> #"The Lorax"
+decrypting #";\262\216'\303\313!\215\227\210p}<|\254\36" -> #"McElligot's Pool"
+decrypting #";\250\353\t\300\315-\302\242\315l(\0303\216\27" -> #"My Book About Me"
+decrypting #"9\271\347k\333\312#\302\263\303b>\t`\343+\275\231K\260\364MU\261\356" -> #"Oh, the Places You'll Go!"
+decrypting #"9\277\353\t\312\333)\214\207\217Y8\16a\242S" -> #"On Beyond Zebra!"
+decrypting #"%\262\271*\302\300*\207\207\217F:\v`\343!\247\234\t\256\271" -> #"Scrambled Eggs Super!"
+decrypting #"\"\271\256k\374\314#\207\227\314k8\0373\242\34\266\314#\250\360\b`\376\234\256p\341\306\213\0" -> #"The Sneetches and Other Stories"
+decrypting #"\"\271\242/\330\313%\211\303\333k8LQ\252\25\377\244\t\275\352\31w\272\357\227p\374\334\213" -> #"Thidwick the Big-Hearted Moose"
+decrypting #"/\264\271?\303\307f\226\213\312#\t\31a\267\36\267\314\r\262\374M]\252\247\277m\263\374\232\34jD\305\375" -> #"Yertle the Turtle and Other Stories"
+
+miscellaneous strings encrypted / decrypted with nonce = #"\1\2\3\4\5\6\a\b" and key = #"PILOT DIMPLES 82"
+encrypting: #"The 500 Hats of Bartholomew Cubbins" -> #"\335\rl\212\370\214\356\26,\252\362\32\301\2530\261%\217f\231x\225@\316n\e\231\213\32\271Y.[\227\226"
+encrypting: #"And To Think That I Saw It On Mulberry Street" -> #"\310\vm\212\231\323\376b\f\242\350\2\301\220>\360\23\316]\315C\233[\201J\n\316\3447\354v9^\233\200a\216\376\246\233\307\317\200\252\17"
+encrypting: #"Bartholomew and the Oobleck" -> #"\313\4{\336\245\323\262Y\t\256\361I\200\2522\261\23\206q\315_\225N\315f\35\205"
+encrypting: #"The Butter Battle Book" -> #"\335\rl\212\217\311\252B\1\271\246+\200\260\"\375\2\316V\202\177\221"
+encrypting: #"The Cat in the Hat Songbook" -> #"\335\rl\212\216\335\252\26\r\245\246\35\211\241v\331\6\2324\276\177\224K\303l\21\205"
+encrypting: #"Daisy-Head Mayzie" -> #"\315\4`\331\264\221\226S\5\257\246$\200\275,\370\2"
+encrypting: #"Did I Ever Tell You How Lucky You Are?" -> #"\315\fm\212\204\234\233@\1\271\246=\204\250:\261>\201a\315X\225[\201O\v\215\300 \354b#G\331\244a\231\270"
+encrypting: #"Dr. Seuss's Sleep Book" -> #"\315\27'\212\236\331\253E\27\354\365I\262\2503\364\27\316V\202\177\221"
+encrypting: #"Gerald McBoing Boing" -> #"\316\0{\313\241\330\376{\a\211\351\0\217\243v\323\b\207z\212"
+encrypting: #"Horton Hatches the Egg" -> #"\301\n{\336\242\322\376~\5\277\345\1\204\267v\345\17\2134\250w\235"
+encrypting: #"Horton Hears A Who!" -> #"\301\n{\336\242\322\376~\1\252\364\32\301\205v\306\17\2015"
+encrypting: #"How the Grinch Stole Christmas" -> #"\301\n~\212\271\324\273\26#\271\357\a\202\254v\302\23\201x\2100\271D\323j\r\232\3068\277"
+encrypting: #"Hunches in Bunches" -> #"\301\20g\311\245\331\255\26\r\245\246+\224\2525\371\2\235"
+encrypting: #"I Can Lick 30 Tigers Today! and Other Stories" -> #"\300EJ\313\243\234\222_\a\240\246Z\321\344\2\370\0\213f\2360\256C\305b\a\317\2138\242_l}\215\215v\216\247\325\274\334\317\214\252\b"
+encrypting: #"I Had Trouble in Getting to Solla Sollew" -> #"\300EA\313\251\234\212D\v\276\344\5\204\344?\377G\251q\231d\223B\306#\n\201\213\n\243W S\331\266|\220\353\343\277"
+encrypting: #"If I Ran the Circus" -> #"\300\3)\343\355\356\277XD\277\356\f\301\207?\343\4\233g"
+encrypting: #"If I Ran the Zoo" -> #"\300\3)\343\355\356\277XD\277\356\f\301\2369\376"
+encrypting: #"The King's Stilts" -> #"\335\rl\212\206\325\260QC\270\246:\225\255:\345\24"
+encrypting: #"The Lorax" -> #"\335\rl\212\201\323\254W\34"
+encrypting: #"McElligot's Pool" -> #"\304\6L\306\241\325\271Y\20\354\365I\261\2539\375"
+encrypting: #"My Book About Me" -> #"\304\34)\350\242\323\265\26%\251\351\34\225\344\e\364"
+encrypting: #"Oh, the Places You'll Go!" -> #"\306\r%\212\271\324\273\0264\247\347\n\204\267v\310\b\2333\201|\332k\316\""
+encrypting: #"On Beyond Zebra!" -> #"\306\v)\350\250\305\261X\0\353\334\f\203\2667\260"
+encrypting: #"Scrambled Eggs Super!" -> #"\332\6{\313\240\336\262S\0\353\303\16\206\267v\302\22\236q\2371"
+encrypting: #"The Sneetches and Other Stories" -> #"\335\rl\212\236\322\273S\20\250\356\f\222\3447\377\3\316[\231x\237^\201P\n\201\3310\251H"
+encrypting: #"Thidwick the Big-Hearted Moose" -> #"\335\r`\316\272\325\275]D\277\356\f\301\206?\366J\246q\214b\216I\305#3\201\304*\251"
+encrypting: #"Yertle the Turtle and Other Stories" -> #"\320\0{\336\241\331\376B\f\256\246=\224\266\"\375\2\316u\203t\332c\325k\e\234\213\n\270T>[\234\226"
+decrypting #"\335\rl\212\370\214\356\26,\252\362\32\301\2530\261%\217f\231x\225@\316n\e\231\213\32\271Y.[\227\226" -> #"The 500 Hats of Bartholomew Cubbins"
+decrypting #"\310\vm\212\231\323\376b\f\242\350\2\301\220>\360\23\316]\315C\233[\201J\n\316\3447\354v9^\233\200a\216\376\246\233\307\317\200\252\17" -> #"And To Think That I Saw It On Mulberry Street"
+decrypting #"\313\4{\336\245\323\262Y\t\256\361I\200\2522\261\23\206q\315_\225N\315f\35\205" -> #"Bartholomew and the Oobleck"
+decrypting #"\335\rl\212\217\311\252B\1\271\246+\200\260\"\375\2\316V\202\177\221" -> #"The Butter Battle Book"
+decrypting #"\335\rl\212\216\335\252\26\r\245\246\35\211\241v\331\6\2324\276\177\224K\303l\21\205" -> #"The Cat in the Hat Songbook"
+decrypting #"\315\4`\331\264\221\226S\5\257\246$\200\275,\370\2" -> #"Daisy-Head Mayzie"
+decrypting #"\315\fm\212\204\234\233@\1\271\246=\204\250:\261>\201a\315X\225[\201O\v\215\300 \354b#G\331\244a\231\270" -> #"Did I Ever Tell You How Lucky You Are?"
+decrypting #"\315\27'\212\236\331\253E\27\354\365I\262\2503\364\27\316V\202\177\221" -> #"Dr. Seuss's Sleep Book"
+decrypting #"\316\0{\313\241\330\376{\a\211\351\0\217\243v\323\b\207z\212" -> #"Gerald McBoing Boing"
+decrypting #"\301\n{\336\242\322\376~\5\277\345\1\204\267v\345\17\2134\250w\235" -> #"Horton Hatches the Egg"
+decrypting #"\301\n{\336\242\322\376~\1\252\364\32\301\205v\306\17\2015" -> #"Horton Hears A Who!"
+decrypting #"\301\n~\212\271\324\273\26#\271\357\a\202\254v\302\23\201x\2100\271D\323j\r\232\3068\277" -> #"How the Grinch Stole Christmas"
+decrypting #"\301\20g\311\245\331\255\26\r\245\246+\224\2525\371\2\235" -> #"Hunches in Bunches"
+decrypting #"\300EJ\313\243\234\222_\a\240\246Z\321\344\2\370\0\213f\2360\256C\305b\a\317\2138\242_l}\215\215v\216\247\325\274\334\317\214\252\b" -> #"I Can Lick 30 Tigers Today! and Other Stories"
+decrypting #"\300EA\313\251\234\212D\v\276\344\5\204\344?\377G\251q\231d\223B\306#\n\201\213\n\243W S\331\266|\220\353\343\277" -> #"I Had Trouble in Getting to Solla Sollew"
+decrypting #"\300\3)\343\355\356\277XD\277\356\f\301\207?\343\4\233g" -> #"If I Ran the Circus"
+decrypting #"\300\3)\343\355\356\277XD\277\356\f\301\2369\376" -> #"If I Ran the Zoo"
+decrypting #"\335\rl\212\206\325\260QC\270\246:\225\255:\345\24" -> #"The King's Stilts"
+decrypting #"\335\rl\212\201\323\254W\34" -> #"The Lorax"
+decrypting #"\304\6L\306\241\325\271Y\20\354\365I\261\2539\375" -> #"McElligot's Pool"
+decrypting #"\304\34)\350\242\323\265\26%\251\351\34\225\344\e\364" -> #"My Book About Me"
+decrypting #"\306\r%\212\271\324\273\0264\247\347\n\204\267v\310\b\2333\201|\332k\316\"" -> #"Oh, the Places You'll Go!"
+decrypting #"\306\v)\350\250\305\261X\0\353\334\f\203\2667\260" -> #"On Beyond Zebra!"
+decrypting #"\332\6{\313\240\336\262S\0\353\303\16\206\267v\302\22\236q\2371" -> #"Scrambled Eggs Super!"
+decrypting #"\335\rl\212\236\322\273S\20\250\356\f\222\3447\377\3\316[\231x\237^\201P\n\201\3310\251H" -> #"The Sneetches and Other Stories"
+decrypting #"\335\r`\316\272\325\275]D\277\356\f\301\206?\366J\246q\214b\216I\305#3\201\304*\251" -> #"Thidwick the Big-Hearted Moose"
+decrypting #"\320\0{\336\241\331\376B\f\256\246=\224\266\"\375\2\316u\203t\332c\325k\e\234\213\n\270T>[\234\226" -> #"Yertle the Turtle and Other Stories"
+
+// ------------------------------------------------------------
+
+19. Output of running racket on "19/test.rkt":
+
+decrypting using english language histogram:
+i have met them at close of&-a&
+coming with vivid faces
+from counter or desk among a;e&
+eighteenth-century houses.
+i have passed with a nod of&=h:E...
+or polite meaningless words*
+or have lingered awhile and&:a6\
+polite meaningless words,
+and thought before I had doh,
+of a mocking tale or a gibe
+to please a companion
+around the fire at the club*
+being certain that they and& 
+but lived where motley is wi;ne
+all changed, changed utterls
+a terrible beauty is born.
+that woman's days were spenr
+in ignorant good will,
+her nights in argument
+until her voice grew shrill(
+what voice more sweet than n,r,
+when young and beautiful,
+she rode to harriers?
+this man had kept a school
+and rode our winged horse.
+this other his helper and ft e1\
+was coming into his force;
+he might have won fame in tn, :VI.
+so sensitive his nature seek,ds
+so daring and sweet his thos.h+
+this other man I had dreameb
+a drunken, vain-glorious los=.
+he had done most bitter wroh.
+to some who are near my heat=,
+yet I number him in the sonar
+he, too, has resigned his pg;t
+in the casual comedy;
+he, too, has been changed ihih6K
+...W
+transformed utterly:
+a terrible beauty is born.
+
+Some characters towards the end of long sentences are garbled since
+there were not enough characters in these positions for this type of analysis.
+
+Further analysis could decipher those final characters, but enough is
+visible now to see that this is from Easter, 1916 by William Butler Yeats:
+
+From http://www.poetryfoundation.org/poem/172061:
+
+I have met them at close of day
+Coming with vivid faces
+From counter or desk among grey
+Eighteenth-century houses.
+I have passed with a nod of the head
+Or polite meaningless words,
+Or have lingered awhile and said
+Polite meaningless words,
+And thought before I had done
+Of a mocking tale or a gibe
+To please a companion
+Around the fire at the club,
+Being certain that they and I
+But lived where motley is worn:
+All changed, changed utterly:
+A terrible beauty is born.
+That woman's days were spent
+In ignorant good-will,
+Her nights in argument
+Until her voice grew shrill.
+What voice more sweet than hers
+When, young and beautiful,
+She rode to harriers?
+This man had kept a school
+And rode our winged horse;
+This other his helper and friend
+Was coming into his force;
+He might have won fame in the end,
+So sensitive his nature seemed,
+So daring and sweet his thought.
+This other man I had dreamed
+A drunken, vainglorious lout.
+He had done most bitter wrong
+To some who are near my heart,
+Yet I number him in the song;
+He, too, has resigned his part
+In the casual comedy;
+He, too, has been changed in his turn,
+Transformed utterly:
+A terrible beauty is born.
+
+// ------------------------------------------------------------
+
+20. Output of running racket on "20/test.rkt":
+
+truncating cypher texts to 53 bytes (length of shortest one)
+
+i'm rated "R"...this is a warning, ya better void / P
+cuz I came back to attack others in spite- / Strike l
+but don't be afraid in the dark, in a park / Not a sc
+ya tremble like a alcoholic, muscles tighten up / Wha
+suddenly you feel like your in a horror flick / You g
+music's the clue, when I come your warned / Apocalyps
+haven't you ever heard of a MC-murderer? / This is th
+death wish, so come on, step to this / Hysterical ide
+friday the thirteenth, walking down Elm Street / You 
+this is off limits, so your visions are blurry / All 
+terror in the styles, never error-files / Indeed I'm 
+for those that oppose to be level or next to this / I
+worse than a nightmare, you don't have to sleep a win
+flashbacks interfere, ya start to hear: / The R-A-K-I
+then the beat is hysterical / That makes Eric go get 
+soon the lyrical format is superior / Faces of death 
+mC's decaying, cuz they never stayed / The scene of a
+the fiend of a rhyme on the mic that you know / It's 
+melodies-unmakable, pattern-unescapable / A horn if w
+i bless the child, the earth, the gods and bomb the r
+hazardous to your health so be friendly / A matter of
+shake 'till your clear, make it disappear, make the n
+if not, my soul'll release! / The scene is recreated,
+cuz your about to see a disastrous sight / A performa
+lyrics of fury! A fearified freestyle! / The "R" is i
+make sure the system's loud when I mention / Phrases 
+you want to hear some sounds that not only pounds but
+then nonchalantly tell you what it mean to me / Stric
+and I don't care if the whole crowd's a witness! / I'
+program into the speed of the rhyme, prepare to start
+musical madness MC ever made, see it's / Now an emerg
+open your mind, you will find every word'll be / Furi
+battle's tempting...whatever suits ya! / For words th
+you think you're ruffer, then suffer the consequences
+i wake ya with hundreds of thousands of volts / Mic-t
+novocain ease the pain it might save him / If not, Er
+yo Rakim, what's up? / Yo, I'm doing the knowledge, E
+well, check this out, since Norby Walters is our agen
+kara Lewis is our agent, word up / Zakia and 4th and 
+okay, so who we rollin' with then? We rollin' with Ru
+check this out, since we talking over / This def beat
+i wanna hear some of them def rhymes, you know what I
+thinkin' of a master plan / 'Cuz ain't nuthin' but sw
+so I dig into my pocket, all my money is spent / So I
+so I start my mission, leave my residence / Thinkin' 
+i need money, I used to be a stick-up kid / So I thin
+i used to roll up, this is a hold up, ain't nuthin' f
+but now I learned to earn 'cuz I'm righteous / I feel
+search for a nine to five, if I strive / Then maybe I
+so I walk up the street whistlin' this / Feelin' out 
+a pen and a paper, a stereo, a tape of / Me and Eric 
+fish, which is my favorite dish / But without no mone
+Cuz I don't like to dream about gettin' paid / So I 
+so now to test to see if I got pull / Hit the studio,
+rakim, check this out, yo / You go to your girl house
+Cause my girl is definitely mad / 'Cause it took us 
+yo, I hear what you're saying / So let's just pump th
+and count our money / Yo, well check this out, yo Eli
+turn down the bass down / And let the beat just keep 
+and we outta here / Yo, what happened to peace? / Pea
+
+// ------------------------------------------------------------
+
+21. Output of running racket on "21/test.rkt":
+
+seeding generator with value 1
+first 10 PRNs:
+1791095845
+4282876139
+3093770124
+4005303368
+491263
+550290313
+1298508491
+4290846341
+630311759
+1013994432
+
+This matches the values from other implementations, e.g. https://github.com/cslarsen/mersenne-twister/blob/master/test-mt.cpp
+and the C version converted from the wiki's pseudocode (see mt.c).
+
+// ------------------------------------------------------------
+
+22. Output of running racket on "22/test.rkt":
+
+PRN: 2335594033
+looking backwards from 1371865082
+found: 1371864484
+**pass
+
+// ------------------------------------------------------------
+
+23. Output of running racket on "23/test.rkt":
+
+testing temper/distemper functions:
+
+tempering 3763327260: 742228457
+inverting 742228457: 3763327260
+**pass
+
+tempering 930176776: 1858058764
+inverting 1858058764: 930176776
+**pass
+
+tempering 587471654: 2813198542
+inverting 2813198542: 587471654
+**pass
+
+tempering 2201002560: 1879235156
+inverting 1879235156: 2201002560
+**pass
+
+tempering 2005222820: 990232013
+inverting 990232013: 2005222820
+**pass
+
+tempering 2729195571: 2975732707
+inverting 2975732707: 2729195571
+**pass
+
+tempering 2179892346: 2050421543
+inverting 2050421543: 2179892346
+**pass
+
+tempering 189793173: 116861608
+inverting 116861608: 189793173
+**pass
+
+tempering 93813338: 1102154329
+inverting 1102154329: 93813338
+**pass
+
+tempering 131741484: 3875201492
+inverting 3875201492: 131741484
+**pass
+
+initializing PRNG with 1371947147
+tapping 624 values...
+splicing state into new generator...
+Next 10 PRNs from the original PRNG:
+(3802717328 67040792 3994237112 4092686148 852697991 3528599431 284773780 3599912156 3038555057 395305434)
+
+Next 10 PRNs predicted by the spliced generator:
+(3802717328 67040792 3994237112 4092686148 852697991 3528599431 284773780 3599912156 3038555057 395305434)
+
+**pass
+
+// ------------------------------------------------------------
+
+24. Output of running racket on "24/test.rkt":
+
+using seed 8292
+encrypting #"Take your stinking paws off me, you damned dirty ape!"
+0x6c6ad70bc094534a75b9dae8e8a63d8765947c00c0d3084cd081dcdd4b5e8d653ba7309822affffc7eca05e45c0d5904cf87cde198
+decrypting 0x6c6ad70bc094534a75b9dae8e8a63d8765947c00c0d3084cd081dcdd4b5e8d653ba7309822affffc7eca05e45c0d5904cf87cde198
+#"Take your stinking paws off me, you damned dirty ape!"
+**pass
+
+encrypting #"You know the saying, Human see, human do."
+0x6164c94e8b83534827edc1f9a1bb3797629d3b5c81ec0e01de899a8e435e8d652abd28d928eef6fd35
+decrypting 0x6164c94e8b83534827edc1f9a1bb3797629d3b5c81ec0e01de899a8e435e8d652abd28d928eef6fd35
+#"You know the saying, Human see, human do."
+**pass
+
+encrypting #"Doctor, would an ape make a human doll that TALKS?"
+0x7c64df1a8f9f101f70f6dcf0e5e837802b922c1581c91a07dac7dbdd4e4ecc242ce821d72aa2b2e673cf51a0613e6136bcd9
+decrypting 0x7c64df1a8f9f101f70f6dcf0e5e837802b922c1581c91a07dac7dbdd4e4ecc242ce821d72aa2b2e673cf51a0613e6136bcd9
+#"Doctor, would an ape make a human doll that TALKS?"
+**pass
+
+encrypting #"Some apes, it seems, are more equal than others."
+0x6b64d10bc08c4c5a74b589f5f5e8258b6e9e2f5c81c509099f8ad58f431bc43437a9299832a6f3fc3bc151e8500d5e53
+decrypting 0x6b64d10bc08c4c5a74b589f5f5e8258b6e9e2f5c81c509099f8ad58f431bc43437a9299832a6f3fc3bc151e8500d5e53
+#"Some apes, it seems, are more equal than others."
+**pass
+
+cyphertext of partially known string:
+"04505bc9eda65bbe6a3ac7b031b59183c807a10ee97223620bbc89a4afce92f2e26004f9078fd3d35aef64c1743e6c3c"
+0
+1000
+2000
+3000
+4000
+5000
+6000
+7000
+8000
+found key: 8292
+decoded secret: #"<[\347\247\rKg\201m\243n,\260}\307m\303\364\375~H\326X\16\264[3Y\211\3653\267\240\250AAAAAAAAAAAAAA"
+**pass
+
+Testing token strings that "are" MT19937-based:
+"8ebed4c0e8b59ec3d8efc04657f17da0" is based on MT19937
+**pass
+"471781af4cd00f833eac6f8d5e09890b" is based on MT19937
+**pass
+"2bed1edb3cac946e2bf081691e86869b" is based on MT19937
+**pass
+"0874cf35d17809809258ba959ab8c8c9" is based on MT19937
+**pass
+"81e713ab344e79beea8fda966bcebcee" is based on MT19937
+**pass
+
+Testing token strings that "are not" MT19937-based:
+"49474944a89b989" is not based on MT19937
+**pass
+"8c90d433ffe3434" is not based on MT19937
+**pass
+"435894893cde993" is not based on MT19937
+**pass
+"343560fea0900ab" is not based on MT19937
+**pass
+"c34095985984985" is not based on MT19937
+**pass

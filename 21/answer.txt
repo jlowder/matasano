@@ -1,0 +1,15 @@
+seeding generator with value 1
+first 10 PRNs:
+1791095845
+4282876139
+3093770124
+4005303368
+491263
+550290313
+1298508491
+4290846341
+630311759
+1013994432
+
+This matches the values from other implementations, e.g. https://github.com/cslarsen/mersenne-twister/blob/master/test-mt.cpp
+and the C version converted from the wiki's pseudocode (see mt.c).

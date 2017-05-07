@@ -1,0 +1,1132 @@
+Answers for set2:
+
+// ------------------------------------------------------------
+
+9. Output of running racket on "9/test.rkt":
+
+testing #"YELLOW SUBMARINE" (hex "59454c4c4f57205355424d4152494e45") at various paddings
+
+"59454c4c4f57205355424d4152494e45" padded to a multiple of 2 bytes:
+"59454c4c4f57205355424d4152494e450202"
+
+"59454c4c4f57205355424d4152494e45" padded to a multiple of 3 bytes:
+"59454c4c4f57205355424d4152494e450202"
+
+"59454c4c4f57205355424d4152494e45" padded to a multiple of 4 bytes:
+"59454c4c4f57205355424d4152494e4504040404"
+
+"59454c4c4f57205355424d4152494e45" padded to a multiple of 5 bytes:
+"59454c4c4f57205355424d4152494e4504040404"
+
+"59454c4c4f57205355424d4152494e45" padded to a multiple of 6 bytes:
+"59454c4c4f57205355424d4152494e450202"
+
+"59454c4c4f57205355424d4152494e45" padded to a multiple of 7 bytes:
+"59454c4c4f57205355424d4152494e450505050505"
+
+"59454c4c4f57205355424d4152494e45" padded to a multiple of 8 bytes:
+"59454c4c4f57205355424d4152494e450808080808080808"
+
+"59454c4c4f57205355424d4152494e45" padded to a multiple of 9 bytes:
+"59454c4c4f57205355424d4152494e450202"
+
+"59454c4c4f57205355424d4152494e45" padded to a multiple of 10 bytes:
+"59454c4c4f57205355424d4152494e4504040404"
+
+"59454c4c4f57205355424d4152494e45" padded to a multiple of 11 bytes:
+"59454c4c4f57205355424d4152494e45060606060606"
+
+"59454c4c4f57205355424d4152494e45" padded to a multiple of 12 bytes:
+"59454c4c4f57205355424d4152494e450808080808080808"
+
+"59454c4c4f57205355424d4152494e45" padded to a multiple of 13 bytes:
+"59454c4c4f57205355424d4152494e450a0a0a0a0a0a0a0a0a0a"
+
+"59454c4c4f57205355424d4152494e45" padded to a multiple of 14 bytes:
+"59454c4c4f57205355424d4152494e450c0c0c0c0c0c0c0c0c0c0c0c"
+
+"59454c4c4f57205355424d4152494e45" padded to a multiple of 15 bytes:
+"59454c4c4f57205355424d4152494e450e0e0e0e0e0e0e0e0e0e0e0e0e0e"
+
+"59454c4c4f57205355424d4152494e45" padded to a multiple of 16 bytes:
+"59454c4c4f57205355424d4152494e4510101010101010101010101010101010"
+
+"59454c4c4f57205355424d4152494e45" padded to a multiple of 17 bytes:
+"59454c4c4f57205355424d4152494e4501"
+
+"59454c4c4f57205355424d4152494e45" padded to a multiple of 18 bytes:
+"59454c4c4f57205355424d4152494e450202"
+
+"59454c4c4f57205355424d4152494e45" padded to a multiple of 19 bytes:
+"59454c4c4f57205355424d4152494e45030303"
+
+"59454c4c4f57205355424d4152494e45" padded to a multiple of 20 bytes:
+"59454c4c4f57205355424d4152494e4504040404"
+
+"59454c4c4f57205355424d4152494e45" padded to a multiple of 21 bytes:
+"59454c4c4f57205355424d4152494e450505050505"
+
+"59454c4c4f57205355424d4152494e45" padded to a multiple of 22 bytes:
+"59454c4c4f57205355424d4152494e45060606060606"
+
+"59454c4c4f57205355424d4152494e45" padded to a multiple of 23 bytes:
+"59454c4c4f57205355424d4152494e4507070707070707"
+
+"59454c4c4f57205355424d4152494e45" padded to a multiple of 24 bytes:
+"59454c4c4f57205355424d4152494e450808080808080808"
+
+"59454c4c4f57205355424d4152494e45" padded to a multiple of 25 bytes:
+"59454c4c4f57205355424d4152494e45090909090909090909"
+
+"59454c4c4f57205355424d4152494e45" padded to a multiple of 26 bytes:
+"59454c4c4f57205355424d4152494e450a0a0a0a0a0a0a0a0a0a"
+
+"59454c4c4f57205355424d4152494e45" padded to a multiple of 27 bytes:
+"59454c4c4f57205355424d4152494e450b0b0b0b0b0b0b0b0b0b0b"
+
+"59454c4c4f57205355424d4152494e45" padded to a multiple of 28 bytes:
+"59454c4c4f57205355424d4152494e450c0c0c0c0c0c0c0c0c0c0c0c"
+
+"59454c4c4f57205355424d4152494e45" padded to a multiple of 29 bytes:
+"59454c4c4f57205355424d4152494e450d0d0d0d0d0d0d0d0d0d0d0d0d"
+
+"59454c4c4f57205355424d4152494e45" padded to a multiple of 30 bytes:
+"59454c4c4f57205355424d4152494e450e0e0e0e0e0e0e0e0e0e0e0e0e0e"
+
+"59454c4c4f57205355424d4152494e45" padded to a multiple of 31 bytes:
+"59454c4c4f57205355424d4152494e450f0f0f0f0f0f0f0f0f0f0f0f0f0f0f"
+
+"59454c4c4f57205355424d4152494e45" padded to a multiple of 32 bytes:
+"59454c4c4f57205355424d4152494e4510101010101010101010101010101010"
+
+
+// ------------------------------------------------------------
+
+10. Output of running racket on "10/test.rkt":
+
+decrypting using CBC mode, with key:
+#"YELLOW SUBMARINE"
+and IV:
+#"0000000000000000"
+#"y\27]\20RQS[\20Q^T\20y\27] ringin' the bell \nA rockin' on the mike while the fly girls yell \nIn ecstasy in the back of me \nWell that's my DJ Deshay cuttin' all them Z's \nHittin' hard and the girlies goin' crazy \nVanilla's on the mike, man I'm not lazy. \n\nI'm lettin' my drug kick in \nIt controls my mouth and I begin \nTo just let it flow, let my concepts go \nMy posse's to the side yellin', Go Vanilla Go! \n\nSmooth 'cause that's the way I will be \nAnd if you don't give a damn, then \nWhy you starin' at me \nSo get off 'cause I control the stage \nThere's no dissin' allowed \nI'm in my own phase \nThe girlies sa y they love me and that is ok \nAnd I can dance better than any kid n' play \n\nStage 2 -- Yea the one ya' wanna listen to \nIt's off my head so let the beat play through \nSo I can funk it up and make it sound good \n1-2-3 Yo -- Knock on some wood \nFor good luck, I like my rhymes atrocious \nSupercalafragilisticexpialidocious \nI'm an effect and that you can bet \nI can take a fly girl and make her wet. \n\nI'm like Samson -- Samson to Delilah \nThere's no denyin', You can try to hang \nBut you'll keep tryin' to get my style \nOver and over, practice makes perfect \nBut not if you're a loafer. \n\nYou'll get nowhere, no place, no time, no girls \nSoon -- Oh my God, homebody, you probably eat \nSpaghetti with a spoon! Come on and say it! \n\nVIP. Vanilla Ice yep, yep, I'm comin' hard like a rhino \nIntoxicating so you stagger like a wino \nSo punks stop trying and girl stop cryin' \nVanilla Ice is sellin' and you people are buyin' \n'Cause why the freaks are jockin' like Crazy Glue \nMovin' and groovin' trying to sing along \nAll through the ghetto groovin' this here song \nNow you're amazed by the VIP posse. \n\nSteppin' so hard like a German Nazi \nStartled by the bases hittin' ground \nThere's no trippin' on mine, I'm just gettin' down \nSparkamatic, I'm hangin' tight like a fanatic \nYou trapped me once and I thought that \nYou might have it \nSo step down and lend me your ear \n'89 in my time! You, '90 is my year. \n\nYou're weakenin' fast, YO! and I can tell it \nYour body's gettin' hot, so, so I can smell it \nSo don't be mad and don't be sad \n'Cause the lyrics belong to ICE, You can call me Dad \nYou're pitchin' a fit, so step back and endure \nLet the witch doctor, Ice, do the dance to cure \nSo come up close and don't be square \nYou wanna battle me -- Anytime, anywhere \n\nYou thought that I was weak, Boy, you're dead wrong \nSo come on, everybody and sing this song \n\nSay -- Play that funky music Say, go white boy, go white boy go \nplay that funky music Go white boy, go white boy, go \nLay down and boogie and play that funky music till you die. \n\nPlay that funky music Come on, Come on, let me hear \nPlay that funky music white boy you say it, say it \nPlay that funky music A little louder now \nPlay that funky music, white boy Come on, Come on, Come on \nPlay that funky music \n\4\4\4\4"
+
+// ------------------------------------------------------------
+
+11. Output of running racket on "11/test.rkt":
+
+asked the oracle:
+#"The 500 Hats of Bartholomew Cubbins" (hex "546865203530302048617473206f662042617274686f6c6f6d65772043756262696e73")
+got back:
+"5deb0657cc03b3f7dd7c517acdcad9d5621969fe1d5ad2107c3bbc57200ecef1d8e0089d760740c935acc627b4e3b4806013e9d64d77347a842dce32c856ee8b"
+I determined ECB was used
+** pass
+
+asked the oracle:
+#"And To Think That I Saw It On Mulberry Street" (hex "416e6420546f205468696e6b2054686174204920536177204974204f6e204d756c626572727920537472656574")
+got back:
+"d8556b08842ea9f935994ffad1d1c4d10272d844132279c7805050eb9eb44ed4bfa430029dd1e79602e8195efd0fe77ceb69f7eec8b505b8c4b7359ff524fec6"
+I determined ECB was used
+** pass
+
+asked the oracle:
+#"Bartholomew and the Oobleck" (hex "42617274686f6c6f6d657720616e6420746865204f6f626c65636b")
+got back:
+"6455a8221a3acea8377e3aa7484c4bfe850f20c53885b0ed4497b48586cbba51637308d0d5d9341e51e54acb7cc9cfdc"
+I determined CBC was used
+** pass
+
+asked the oracle:
+#"The Butter Battle Book" (hex "5468652042757474657220426174746c6520426f6f6b")
+got back:
+"d2dff585705a7422993cbee6535ebbb3579668fc7a082d39e353248cdd64117bd23f5ffdc83626808fdb284996eae8ce"
+I determined ECB was used
+** pass
+
+asked the oracle:
+#"The Cat in the Hat Songbook" (hex "5468652043617420696e207468652048617420536f6e67626f6f6b")
+got back:
+"3b8ae7523bda0a821bd23f215ced5ff0de4ebc77ee02181cad1886b491dc7e325c230945d06961caf34d56f2fa235f7d"
+I determined CBC was used
+** pass
+
+asked the oracle:
+#"Daisy-Head Mayzie" (hex "44616973792d48656164204d61797a6965")
+got back:
+"69708367b40c78044c55f5ef8faefc15ffaae643e452010a6641ee2529091b6e"
+I determined ECB was used
+** pass
+
+asked the oracle:
+#"Did I Ever Tell You How Lucky You Are?" (hex "446964204920457665722054656c6c20596f7520486f77204c75636b7920596f75204172653f")
+got back:
+"5793e9b78593d62ee3298ec7dcf3626fa5cb7b078e23a239099163bf1339939d152e59b4852677bc18f92462451c782afed0010dc7a797cecedfc291b24ee9d2"
+I determined ECB was used
+** pass
+
+asked the oracle:
+#"Dr. Seuss's Sleep Book" (hex "44722e205365757373277320536c65657020426f6f6b")
+got back:
+"2c5a3e5ea3cb6721341942cfa9075e7c294e672f4bd906c161113f80aefa3d047d16413af3301c522dc42d8e888c93ba"
+I determined ECB was used
+** pass
+
+asked the oracle:
+#"Gerald McBoing Boing" (hex "476572616c64204d63426f696e6720426f696e67")
+got back:
+"5a5a02ca9a8ed64a8f4bcecd62b1a177649626c34d0f76660d6e2a51f9bf34a00536117e51ab38547d6118d3067a7e3d"
+I determined CBC was used
+** pass
+
+asked the oracle:
+#"Horton Hatches the Egg" (hex "486f72746f6e20486174636865732074686520456767")
+got back:
+"9095aee0ca5b38d7d7f1cb4cb097a1041804d53d5e5402e370875f5a0200322cd0d62a187d067f3d5e81513975a8bcaa"
+I determined CBC was used
+** pass
+
+asked the oracle:
+#"Horton Hears A Who!" (hex "486f72746f6e20486561727320412057686f21")
+got back:
+"8bc24a7403ebdd22e06134be60907c9c12212863a0e522f7dac7ac3430f0c55a49a737b7b3da3bb9977adc4e98876158"
+I determined ECB was used
+** pass
+
+asked the oracle:
+#"How the Grinch Stole Christmas" (hex "486f7720746865204772696e63682053746f6c65204368726973746d6173")
+got back:
+"3400bd47128906c7c5a5413f0ca9dba106250fc1abac2d3355fc69ce4c0bfa960e02de164f7ddd998366a0f81465a393"
+I determined ECB was used
+** pass
+
+asked the oracle:
+#"Hunches in Bunches" (hex "48756e6368657320696e2042756e63686573")
+got back:
+"253bd0fa94a5c6b75cd11d1c5cf7317a7d6b88b4c8bb0d92ee80193b36b75ad8cbcbc0b27a522dd12f202b3162ecfdad"
+I determined CBC was used
+** pass
+
+asked the oracle:
+#"I Can Lick 30 Tigers Today! and Other Stories" (hex "492043616e204c69636b2033302054696765727320546f6461792120616e64204f746865722053746f72696573")
+got back:
+"5e3d52a6bc41b3699da580bd335a6744cee313c6796ea8e6e6c7ee2b2ca6e3a75315b5c659fc5f9ed614b85107421e248905abf7bd6a09a847d189db13a2e775"
+I determined ECB was used
+** pass
+
+asked the oracle:
+#"I Had Trouble in Getting to Solla Sollew" (hex "49204861642054726f75626c6520696e2047657474696e6720746f20536f6c6c6120536f6c6c6577")
+got back:
+"c64294edb530a13b60142281d47da395cff0b43639125967163b594d32915cfa845b9fd20c5cd6d82f534d582ffa0cfa3179b48c892752b4e0a68d34fc01f3b3"
+I determined ECB was used
+** pass
+
+asked the oracle:
+#"If I Ran the Circus" (hex "496620492052616e2074686520436972637573")
+got back:
+"141731e0a66f4f219c9cc2fe68609f325ce421cb8b589e1c8799b031ca1590e6052f32124d6d57203ad72787580d1c5c"
+I determined CBC was used
+** pass
+
+asked the oracle:
+#"If I Ran the Zoo" (hex "496620492052616e20746865205a6f6f")
+got back:
+"f543caf8f17920a713f4efc5b053a07c30e9dbbd867352ea046b0a0a6d0b1b972ff2996346d246f7f1ea279a830f3bdb"
+I determined ECB was used
+** pass
+
+asked the oracle:
+#"The King's Stilts" (hex "546865204b696e672773205374696c7473")
+got back:
+"aac4b8073303c66593ccf130ba1c391e612b870e55b4558a769771cae7e5a13f"
+I determined ECB was used
+** pass
+
+asked the oracle:
+#"The Lorax" (hex "546865204c6f726178")
+got back:
+"67154c7a531d70f90d58db486cd498173f3c71d86a3d496f2063fa63d7aa01fc"
+I determined CBC was used
+** pass
+
+asked the oracle:
+#"McElligot's Pool" (hex "4d63456c6c69676f74277320506f6f6c")
+got back:
+"47680f25075d9f3bde5b7b11db0bca226620beda39077cd60f8cb8e51f53662143244f0657f400aac88729d043c67492"
+I determined CBC was used
+** pass
+
+asked the oracle:
+#"My Book About Me" (hex "4d7920426f6f6b2041626f7574204d65")
+got back:
+"cfe72c3c596f2f95aea0ec01dcdc0150d6b41d279f9338c8dbe8734849ebdfef"
+I determined CBC was used
+** pass
+
+asked the oracle:
+#"Oh, the Places You'll Go!" (hex "4f682c2074686520506c6163657320596f75276c6c20476f21")
+got back:
+"1c7d45a95fe0dd008d7f6714a3d014e811094d6d3f3b03de450c053e7e0748b4b15c31344c4182059543302760943659"
+I determined ECB was used
+** pass
+
+asked the oracle:
+#"On Beyond Zebra!" (hex "4f6e204265796f6e64205a6562726121")
+got back:
+"3332e49aacaa08019fe54df3d4f3deb93fcbd1313c14956b0ea68dc0de9396b624d7d3e61018bc9e8823a5adaf020a56"
+I determined ECB was used
+** pass
+
+asked the oracle:
+#"Scrambled Eggs Super!" (hex "536372616d626c6564204567677320537570657221")
+got back:
+"0f3616b9635ca90d63d9f130200c3a539ae01f71a143291fa60958b2eb6f382cc5c082a655f570311a02cef3a197bfc4"
+I determined CBC was used
+** pass
+
+asked the oracle:
+#"The Sneetches and Other Stories" (hex "54686520536e6565746368657320616e64204f746865722053746f72696573")
+got back:
+"a253a865470779efb013888203de1066f493e612323e1e06575688159b6a550e75525cad5d4107df98a8b32d83dff9c3"
+I determined CBC was used
+** pass
+
+asked the oracle:
+#"Thidwick the Big-Hearted Moose" (hex "546869647769636b20746865204269672d48656172746564204d6f6f7365")
+got back:
+"e31b83fd5437380f12ee7089caa6333fe4b3fa6e6a685873cf1872ac59c4f0885912cc2a36a1deead6350a3e592e5440"
+I determined CBC was used
+** pass
+
+asked the oracle:
+#"Yertle the Turtle and Other Stories" (hex "596572746c652074686520547572746c6520616e64204f746865722053746f72696573")
+got back:
+"e9794ae4ac8d8fab573620b09adec812ae4778fd1069ee34018e3d7eef63de626d4904ba1982dce040d0d8db5af5596ca7a31a2369ce1550e1c109e2671ad76d"
+I determined ECB was used
+** pass
+
+
+// ------------------------------------------------------------
+
+12. Output of running racket on "12/test.rkt":
+
+block size appears to be 16 bytes
+it appears to be ECB
+R
+Ro
+Rol
+Roll
+Rolli
+Rollin
+Rollin'
+Rollin' 
+Rollin' i
+Rollin' in
+Rollin' in 
+Rollin' in m
+Rollin' in my
+Rollin' in my 
+Rollin' in my 5
+Rollin' in my 5.
+Rollin' in my 5.0
+Rollin' in my 5.0
+
+Rollin' in my 5.0
+W
+Rollin' in my 5.0
+Wi
+Rollin' in my 5.0
+Wit
+Rollin' in my 5.0
+With
+Rollin' in my 5.0
+With 
+Rollin' in my 5.0
+With m
+Rollin' in my 5.0
+With my
+Rollin' in my 5.0
+With my 
+Rollin' in my 5.0
+With my r
+Rollin' in my 5.0
+With my ra
+Rollin' in my 5.0
+With my rag
+Rollin' in my 5.0
+With my rag-
+Rollin' in my 5.0
+With my rag-t
+Rollin' in my 5.0
+With my rag-to
+Rollin' in my 5.0
+With my rag-top
+Rollin' in my 5.0
+With my rag-top 
+Rollin' in my 5.0
+With my rag-top d
+Rollin' in my 5.0
+With my rag-top do
+Rollin' in my 5.0
+With my rag-top dow
+Rollin' in my 5.0
+With my rag-top down
+Rollin' in my 5.0
+With my rag-top down 
+Rollin' in my 5.0
+With my rag-top down s
+Rollin' in my 5.0
+With my rag-top down so
+Rollin' in my 5.0
+With my rag-top down so 
+Rollin' in my 5.0
+With my rag-top down so m
+Rollin' in my 5.0
+With my rag-top down so my
+Rollin' in my 5.0
+With my rag-top down so my 
+Rollin' in my 5.0
+With my rag-top down so my h
+Rollin' in my 5.0
+With my rag-top down so my ha
+Rollin' in my 5.0
+With my rag-top down so my hai
+Rollin' in my 5.0
+With my rag-top down so my hair
+Rollin' in my 5.0
+With my rag-top down so my hair 
+Rollin' in my 5.0
+With my rag-top down so my hair c
+Rollin' in my 5.0
+With my rag-top down so my hair ca
+Rollin' in my 5.0
+With my rag-top down so my hair can
+Rollin' in my 5.0
+With my rag-top down so my hair can 
+Rollin' in my 5.0
+With my rag-top down so my hair can b
+Rollin' in my 5.0
+With my rag-top down so my hair can bl
+Rollin' in my 5.0
+With my rag-top down so my hair can blo
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+T
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+Th
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The 
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The g
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The gi
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The gir
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girl
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girli
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlie
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies 
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies o
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on 
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on s
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on st
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on sta
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on stan
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on stand
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standb
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby 
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby w
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby wa
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby wav
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby wavi
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby wavin
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby waving
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby waving 
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby waving j
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby waving ju
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby waving jus
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby waving just
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby waving just 
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby waving just t
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby waving just to
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby waving just to 
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby waving just to s
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby waving just to sa
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby waving just to say
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby waving just to say 
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby waving just to say h
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby waving just to say hi
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby waving just to say hi
+
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby waving just to say hi
+D
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby waving just to say hi
+Di
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby waving just to say hi
+Did
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby waving just to say hi
+Did 
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby waving just to say hi
+Did y
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby waving just to say hi
+Did yo
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby waving just to say hi
+Did you
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby waving just to say hi
+Did you 
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby waving just to say hi
+Did you s
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby waving just to say hi
+Did you st
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby waving just to say hi
+Did you sto
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby waving just to say hi
+Did you stop
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby waving just to say hi
+Did you stop?
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby waving just to say hi
+Did you stop? 
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby waving just to say hi
+Did you stop? N
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby waving just to say hi
+Did you stop? No
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby waving just to say hi
+Did you stop? No,
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby waving just to say hi
+Did you stop? No, 
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby waving just to say hi
+Did you stop? No, I
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby waving just to say hi
+Did you stop? No, I 
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby waving just to say hi
+Did you stop? No, I j
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby waving just to say hi
+Did you stop? No, I ju
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby waving just to say hi
+Did you stop? No, I jus
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby waving just to say hi
+Did you stop? No, I just
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby waving just to say hi
+Did you stop? No, I just 
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby waving just to say hi
+Did you stop? No, I just d
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby waving just to say hi
+Did you stop? No, I just dr
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby waving just to say hi
+Did you stop? No, I just dro
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby waving just to say hi
+Did you stop? No, I just drov
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby waving just to say hi
+Did you stop? No, I just drove
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby waving just to say hi
+Did you stop? No, I just drove 
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby waving just to say hi
+Did you stop? No, I just drove b
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby waving just to say hi
+Did you stop? No, I just drove by
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby waving just to say hi
+Did you stop? No, I just drove by
+
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby waving just to say hi
+Did you stop? No, I just drove by
+
+
+
+Decoded byte string:
+#"Rollin' in my 5.0\nWith my rag-top down so my hair can blow\nThe girlies on standby waving just to say hi\nDid you stop? No, I just drove by\n\1"
+
+// ------------------------------------------------------------
+
+13. Output of running racket on "13/test.rkt":
+
+registered a profile for ice@gmail.com: 
+#"\204\355\21\342\22\354\311\236C\e~W\244\301Xr\331\321\320~\261\261\"Mo\363j\230\372\31MT\226j\325.\327\a\v@\320\310\35\341\342\177b\325"
+decrypted and parsed: {"email":"ice@gmail.com","role":"user","uid":"10"}
+
+generating desired second-block string: "admin\v\v\v\v\v\v\v\v\v\v\v"
+generating profile for "xxxxxxxxx@admin\v\v\v\v\v\v\v\v\v\v\v":
+#"\247\342\372x\216\2259\377^\21\210\213\e\273I\16h\271 ]\215\\S\253\264PJ@5\225\35\17Z\nX\232\214\332O\242.\367\266\355`\236BJ\323\371\306\273-}:\352\224e\216\27\310A\217\306"
+decrypted and parsed: {"email":"xxxxxxxxx@admin\u000b\u000b\u000b\u000b\u000b\u000b\u000b\u000b\u000b\u000b\u000b","role":"user","uid":"10"}
+
+decrypting this faked cyphertext: #"\204\355\21\342\22\354\311\236C\e~W\244\301Xr\331\321\320~\261\261\"Mo\363j\230\372\31MTh\271 ]\215\\S\253\264PJ@5\225\35\17"
+profile created: {"email":"ice@gmail.com","role":"admin","uid":"10"}
+
+// ------------------------------------------------------------
+
+14. Output of running racket on "14/test.rkt":
+
+block size appears to be 16 bytes
+a block of encrypted padding looks like this: #"\"5\211Xh\2304R\223\37\324[6n\226\16"
+it appears to be ECB
+prefix size looks like 124 bytes
+delta prefix size is 4
+R
+Ro
+Rol
+Roll
+Rolli
+Rollin
+Rollin'
+Rollin' 
+Rollin' i
+Rollin' in
+Rollin' in 
+Rollin' in m
+Rollin' in my
+Rollin' in my 
+Rollin' in my 5
+Rollin' in my 5.
+Rollin' in my 5.0
+Rollin' in my 5.0
+
+Rollin' in my 5.0
+W
+Rollin' in my 5.0
+Wi
+Rollin' in my 5.0
+Wit
+Rollin' in my 5.0
+With
+Rollin' in my 5.0
+With 
+Rollin' in my 5.0
+With m
+Rollin' in my 5.0
+With my
+Rollin' in my 5.0
+With my 
+Rollin' in my 5.0
+With my r
+Rollin' in my 5.0
+With my ra
+Rollin' in my 5.0
+With my rag
+Rollin' in my 5.0
+With my rag-
+Rollin' in my 5.0
+With my rag-t
+Rollin' in my 5.0
+With my rag-to
+Rollin' in my 5.0
+With my rag-top
+Rollin' in my 5.0
+With my rag-top 
+Rollin' in my 5.0
+With my rag-top d
+Rollin' in my 5.0
+With my rag-top do
+Rollin' in my 5.0
+With my rag-top dow
+Rollin' in my 5.0
+With my rag-top down
+Rollin' in my 5.0
+With my rag-top down 
+Rollin' in my 5.0
+With my rag-top down s
+Rollin' in my 5.0
+With my rag-top down so
+Rollin' in my 5.0
+With my rag-top down so 
+Rollin' in my 5.0
+With my rag-top down so m
+Rollin' in my 5.0
+With my rag-top down so my
+Rollin' in my 5.0
+With my rag-top down so my 
+Rollin' in my 5.0
+With my rag-top down so my h
+Rollin' in my 5.0
+With my rag-top down so my ha
+Rollin' in my 5.0
+With my rag-top down so my hai
+Rollin' in my 5.0
+With my rag-top down so my hair
+Rollin' in my 5.0
+With my rag-top down so my hair 
+Rollin' in my 5.0
+With my rag-top down so my hair c
+Rollin' in my 5.0
+With my rag-top down so my hair ca
+Rollin' in my 5.0
+With my rag-top down so my hair can
+Rollin' in my 5.0
+With my rag-top down so my hair can 
+Rollin' in my 5.0
+With my rag-top down so my hair can b
+Rollin' in my 5.0
+With my rag-top down so my hair can bl
+Rollin' in my 5.0
+With my rag-top down so my hair can blo
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+T
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+Th
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The 
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The g
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The gi
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The gir
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girl
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girli
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlie
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies 
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies o
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on 
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on s
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on st
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on sta
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on stan
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on stand
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standb
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby 
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby w
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby wa
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby wav
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby wavi
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby wavin
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby waving
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby waving 
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby waving j
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby waving ju
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby waving jus
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby waving just
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby waving just 
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby waving just t
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby waving just to
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby waving just to 
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby waving just to s
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby waving just to sa
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby waving just to say
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby waving just to say 
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby waving just to say h
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby waving just to say hi
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby waving just to say hi
+
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby waving just to say hi
+D
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby waving just to say hi
+Di
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby waving just to say hi
+Did
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby waving just to say hi
+Did 
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby waving just to say hi
+Did y
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby waving just to say hi
+Did yo
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby waving just to say hi
+Did you
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby waving just to say hi
+Did you 
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby waving just to say hi
+Did you s
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby waving just to say hi
+Did you st
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby waving just to say hi
+Did you sto
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby waving just to say hi
+Did you stop
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby waving just to say hi
+Did you stop?
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby waving just to say hi
+Did you stop? 
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby waving just to say hi
+Did you stop? N
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby waving just to say hi
+Did you stop? No
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby waving just to say hi
+Did you stop? No,
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby waving just to say hi
+Did you stop? No, 
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby waving just to say hi
+Did you stop? No, I
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby waving just to say hi
+Did you stop? No, I 
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby waving just to say hi
+Did you stop? No, I j
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby waving just to say hi
+Did you stop? No, I ju
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby waving just to say hi
+Did you stop? No, I jus
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby waving just to say hi
+Did you stop? No, I just
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby waving just to say hi
+Did you stop? No, I just 
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby waving just to say hi
+Did you stop? No, I just d
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby waving just to say hi
+Did you stop? No, I just dr
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby waving just to say hi
+Did you stop? No, I just dro
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby waving just to say hi
+Did you stop? No, I just drov
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby waving just to say hi
+Did you stop? No, I just drove
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby waving just to say hi
+Did you stop? No, I just drove 
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby waving just to say hi
+Did you stop? No, I just drove b
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby waving just to say hi
+Did you stop? No, I just drove by
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby waving just to say hi
+Did you stop? No, I just drove by
+
+Rollin' in my 5.0
+With my rag-top down so my hair can blow
+The girlies on standby waving just to say hi
+Did you stop? No, I just drove by
+
+
+
+Decoded byte string:
+#"Rollin' in my 5.0\nWith my rag-top down so my hair can blow\nThe girlies on standby waving just to say hi\nDid you stop? No, I just drove by\n\1"
+
+// ------------------------------------------------------------
+
+15. Output of running racket on "15/test.rkt":
+
+attempting to unpad #"ICE ICE BABY\4\4\4\4"
+#"ICE ICE BABY"
+attempting to unpad #"ICE ICE BABY\5\5\5\5"
+invalid-pad: The PKCS7 padding is not correct on #"ICE ICE BABY\5\5\5\5"
+#f
+attempting to unpad #"ICE ICE BABY\1\2\3\4"
+invalid-pad: The PKCS7 padding is not correct on #"ICE ICE BABY\1\2\3\4"
+#f
+
+// ------------------------------------------------------------
+
+16. Output of running racket on "16/test.rkt":
+
+using input: ":::::::::::::::::admin<true:::::::::::::"
+encrypted response (hex):
+0xeeb4633580fe060ab522568603a26d9046492c698e79841d0bfe066e83ce5a808e033e442c9df6f29dc7a33e4e1f99490fca2fbf0f5cacb494721300b03ab67bdcf5b9f3f32da39fd69b2ba4539b258a971f06ae771746d292541dad8236a0f874f4c8209649054c49167e42ba9e1bb743779e6190946c5030c81691821fead1
+result of decryption test on this result as-is: false
+using this bitmask to muck with the cyphertext (at block #3): (hex) 0x01000000000001000000000100000000
+encrypted response after mucking with it (hex):
+0xeeb4633580fe060ab522568603a26d9046492c698e79841d0bfe066e83ce5a808f033e442c9df7f29dc7a33f4e1f99490fca2fbf0f5cacb494721300b03ab67bdcf5b9f3f32da39fd69b2ba4539b258a971f06ae771746d292541dad8236a0f874f4c8209649054c49167e42ba9e1bb743779e6190946c5030c81691821fead1
+result of decryption test on the mucked response: true **pass

@@ -1,0 +1,21 @@
+First part: test without a MITM
+112
+B received: 6d0a5b7fe66207f6ef20619865c8dd533424605d07e2b9a201bb7b0a8f7423cecc9326286e5735d97d8cdd26f7c818c07cb26446d817a54cfabbd3ea4efc1658ab261cd33a186ba652c3453bd23abe0e93f41d2ee1c52dba48b8ff4d4e1c1781632c43fa7de04f85c45724d63862ab1e
+B decrypted: #"Logic clearly dictates that the needs of the many outweigh the needs of the few."
+112
+A received: a663e976e93a37ec05d52a4f6a030c01f463206f5a7b1595837e2b28096208d8cc0dabccc52a93750430d60b0025ddc135b4c3edea6adf1d54edbb33ecf7ced37d9983900d0ba0c0cedc5ac351499e9d424e46b960103eab994288adf911fe48292cc0f4db9c4c4622da0b0029a33fce
+A decrypted: #"Logic clearly dictates that the needs of the many outweigh the needs of the few."
+112
+
+
+Second part: test with a MITM
+112
+M: read ab52da4ba67adee4400accb050152201ecb023831f0335ba29d905585ff96539f3e00a9cd86d38450f69134fa562a7c30cf4f64ac5e7df2d88afd5d61f1245a8fda677baabdf77911a5df2c3c2ede31a9cf4c823925841ef2dd89c2aa6123256be472af6f4b5c60998b156d306053a42 from A
+M: decrypting A's message to #"Computers make excellent and efficient servants, but I have no wish to serve under them."
+B received: ab52da4ba67adee4400accb050152201ecb023831f0335ba29d905585ff96539f3e00a9cd86d38450f69134fa562a7c30cf4f64ac5e7df2d88afd5d61f1245a8fda677baabdf77911a5df2c3c2ede31a9cf4c823925841ef2dd89c2aa6123256be472af6f4b5c60998b156d306053a42
+B decrypted: #"Computers make excellent and efficient servants, but I have no wish to serve under them."
+M: read a9c93429e1c9f6f66aecd00680d44ae8936887b76be501e63e3a9f13eee8191612767e8f037551570e0cc7db7585d43075d5d4e574ea9f3cdcc4a712b8079082c4bfad851f830469c97d9ee74fa013de9da662c93eabbb3bf6cec8fef4bd524bc540b6707603437e2f2412a836f031c3 from B
+M: decrypting B's return message to #"Computers make excellent and efficient servants, but I have no wish to serve under them."
+A received: a9c93429e1c9f6f66aecd00680d44ae8936887b76be501e63e3a9f13eee8191612767e8f037551570e0cc7db7585d43075d5d4e574ea9f3cdcc4a712b8079082c4bfad851f830469c97d9ee74fa013de9da662c93eabbb3bf6cec8fef4bd524bc540b6707603437e2f2412a836f031c3
+A decrypted: #"Computers make excellent and efficient servants, but I have no wish to serve under them."
+112

@@ -1,0 +1,11 @@
+registered a profile for ice@gmail.com: 
+#"\204\355\21\342\22\354\311\236C\e~W\244\301Xr\331\321\320~\261\261\"Mo\363j\230\372\31MT\226j\325.\327\a\v@\320\310\35\341\342\177b\325"
+decrypted and parsed: {"email":"ice@gmail.com","role":"user","uid":"10"}
+
+generating desired second-block string: "admin\v\v\v\v\v\v\v\v\v\v\v"
+generating profile for "xxxxxxxxx@admin\v\v\v\v\v\v\v\v\v\v\v":
+#"\247\342\372x\216\2259\377^\21\210\213\e\273I\16h\271 ]\215\\S\253\264PJ@5\225\35\17Z\nX\232\214\332O\242.\367\266\355`\236BJ\323\371\306\273-}:\352\224e\216\27\310A\217\306"
+decrypted and parsed: {"email":"xxxxxxxxx@admin\u000b\u000b\u000b\u000b\u000b\u000b\u000b\u000b\u000b\u000b\u000b","role":"user","uid":"10"}
+
+decrypting this faked cyphertext: #"\204\355\21\342\22\354\311\236C\e~W\244\301Xr\331\321\320~\261\261\"Mo\363j\230\372\31MTh\271 ]\215\\S\253\264PJ@5\225\35\17"
+profile created: {"email":"ice@gmail.com","role":"admin","uid":"10"}

@@ -1,0 +1,189 @@
+asked the oracle:
+#"The 500 Hats of Bartholomew Cubbins" (hex "546865203530302048617473206f662042617274686f6c6f6d65772043756262696e73")
+got back:
+"5deb0657cc03b3f7dd7c517acdcad9d5621969fe1d5ad2107c3bbc57200ecef1d8e0089d760740c935acc627b4e3b4806013e9d64d77347a842dce32c856ee8b"
+I determined ECB was used
+** pass
+
+asked the oracle:
+#"And To Think That I Saw It On Mulberry Street" (hex "416e6420546f205468696e6b2054686174204920536177204974204f6e204d756c626572727920537472656574")
+got back:
+"d8556b08842ea9f935994ffad1d1c4d10272d844132279c7805050eb9eb44ed4bfa430029dd1e79602e8195efd0fe77ceb69f7eec8b505b8c4b7359ff524fec6"
+I determined ECB was used
+** pass
+
+asked the oracle:
+#"Bartholomew and the Oobleck" (hex "42617274686f6c6f6d657720616e6420746865204f6f626c65636b")
+got back:
+"6455a8221a3acea8377e3aa7484c4bfe850f20c53885b0ed4497b48586cbba51637308d0d5d9341e51e54acb7cc9cfdc"
+I determined CBC was used
+** pass
+
+asked the oracle:
+#"The Butter Battle Book" (hex "5468652042757474657220426174746c6520426f6f6b")
+got back:
+"d2dff585705a7422993cbee6535ebbb3579668fc7a082d39e353248cdd64117bd23f5ffdc83626808fdb284996eae8ce"
+I determined ECB was used
+** pass
+
+asked the oracle:
+#"The Cat in the Hat Songbook" (hex "5468652043617420696e207468652048617420536f6e67626f6f6b")
+got back:
+"3b8ae7523bda0a821bd23f215ced5ff0de4ebc77ee02181cad1886b491dc7e325c230945d06961caf34d56f2fa235f7d"
+I determined CBC was used
+** pass
+
+asked the oracle:
+#"Daisy-Head Mayzie" (hex "44616973792d48656164204d61797a6965")
+got back:
+"69708367b40c78044c55f5ef8faefc15ffaae643e452010a6641ee2529091b6e"
+I determined ECB was used
+** pass
+
+asked the oracle:
+#"Did I Ever Tell You How Lucky You Are?" (hex "446964204920457665722054656c6c20596f7520486f77204c75636b7920596f75204172653f")
+got back:
+"5793e9b78593d62ee3298ec7dcf3626fa5cb7b078e23a239099163bf1339939d152e59b4852677bc18f92462451c782afed0010dc7a797cecedfc291b24ee9d2"
+I determined ECB was used
+** pass
+
+asked the oracle:
+#"Dr. Seuss's Sleep Book" (hex "44722e205365757373277320536c65657020426f6f6b")
+got back:
+"2c5a3e5ea3cb6721341942cfa9075e7c294e672f4bd906c161113f80aefa3d047d16413af3301c522dc42d8e888c93ba"
+I determined ECB was used
+** pass
+
+asked the oracle:
+#"Gerald McBoing Boing" (hex "476572616c64204d63426f696e6720426f696e67")
+got back:
+"5a5a02ca9a8ed64a8f4bcecd62b1a177649626c34d0f76660d6e2a51f9bf34a00536117e51ab38547d6118d3067a7e3d"
+I determined CBC was used
+** pass
+
+asked the oracle:
+#"Horton Hatches the Egg" (hex "486f72746f6e20486174636865732074686520456767")
+got back:
+"9095aee0ca5b38d7d7f1cb4cb097a1041804d53d5e5402e370875f5a0200322cd0d62a187d067f3d5e81513975a8bcaa"
+I determined CBC was used
+** pass
+
+asked the oracle:
+#"Horton Hears A Who!" (hex "486f72746f6e20486561727320412057686f21")
+got back:
+"8bc24a7403ebdd22e06134be60907c9c12212863a0e522f7dac7ac3430f0c55a49a737b7b3da3bb9977adc4e98876158"
+I determined ECB was used
+** pass
+
+asked the oracle:
+#"How the Grinch Stole Christmas" (hex "486f7720746865204772696e63682053746f6c65204368726973746d6173")
+got back:
+"3400bd47128906c7c5a5413f0ca9dba106250fc1abac2d3355fc69ce4c0bfa960e02de164f7ddd998366a0f81465a393"
+I determined ECB was used
+** pass
+
+asked the oracle:
+#"Hunches in Bunches" (hex "48756e6368657320696e2042756e63686573")
+got back:
+"253bd0fa94a5c6b75cd11d1c5cf7317a7d6b88b4c8bb0d92ee80193b36b75ad8cbcbc0b27a522dd12f202b3162ecfdad"
+I determined CBC was used
+** pass
+
+asked the oracle:
+#"I Can Lick 30 Tigers Today! and Other Stories" (hex "492043616e204c69636b2033302054696765727320546f6461792120616e64204f746865722053746f72696573")
+got back:
+"5e3d52a6bc41b3699da580bd335a6744cee313c6796ea8e6e6c7ee2b2ca6e3a75315b5c659fc5f9ed614b85107421e248905abf7bd6a09a847d189db13a2e775"
+I determined ECB was used
+** pass
+
+asked the oracle:
+#"I Had Trouble in Getting to Solla Sollew" (hex "49204861642054726f75626c6520696e2047657474696e6720746f20536f6c6c6120536f6c6c6577")
+got back:
+"c64294edb530a13b60142281d47da395cff0b43639125967163b594d32915cfa845b9fd20c5cd6d82f534d582ffa0cfa3179b48c892752b4e0a68d34fc01f3b3"
+I determined ECB was used
+** pass
+
+asked the oracle:
+#"If I Ran the Circus" (hex "496620492052616e2074686520436972637573")
+got back:
+"141731e0a66f4f219c9cc2fe68609f325ce421cb8b589e1c8799b031ca1590e6052f32124d6d57203ad72787580d1c5c"
+I determined CBC was used
+** pass
+
+asked the oracle:
+#"If I Ran the Zoo" (hex "496620492052616e20746865205a6f6f")
+got back:
+"f543caf8f17920a713f4efc5b053a07c30e9dbbd867352ea046b0a0a6d0b1b972ff2996346d246f7f1ea279a830f3bdb"
+I determined ECB was used
+** pass
+
+asked the oracle:
+#"The King's Stilts" (hex "546865204b696e672773205374696c7473")
+got back:
+"aac4b8073303c66593ccf130ba1c391e612b870e55b4558a769771cae7e5a13f"
+I determined ECB was used
+** pass
+
+asked the oracle:
+#"The Lorax" (hex "546865204c6f726178")
+got back:
+"67154c7a531d70f90d58db486cd498173f3c71d86a3d496f2063fa63d7aa01fc"
+I determined CBC was used
+** pass
+
+asked the oracle:
+#"McElligot's Pool" (hex "4d63456c6c69676f74277320506f6f6c")
+got back:
+"47680f25075d9f3bde5b7b11db0bca226620beda39077cd60f8cb8e51f53662143244f0657f400aac88729d043c67492"
+I determined CBC was used
+** pass
+
+asked the oracle:
+#"My Book About Me" (hex "4d7920426f6f6b2041626f7574204d65")
+got back:
+"cfe72c3c596f2f95aea0ec01dcdc0150d6b41d279f9338c8dbe8734849ebdfef"
+I determined CBC was used
+** pass
+
+asked the oracle:
+#"Oh, the Places You'll Go!" (hex "4f682c2074686520506c6163657320596f75276c6c20476f21")
+got back:
+"1c7d45a95fe0dd008d7f6714a3d014e811094d6d3f3b03de450c053e7e0748b4b15c31344c4182059543302760943659"
+I determined ECB was used
+** pass
+
+asked the oracle:
+#"On Beyond Zebra!" (hex "4f6e204265796f6e64205a6562726121")
+got back:
+"3332e49aacaa08019fe54df3d4f3deb93fcbd1313c14956b0ea68dc0de9396b624d7d3e61018bc9e8823a5adaf020a56"
+I determined ECB was used
+** pass
+
+asked the oracle:
+#"Scrambled Eggs Super!" (hex "536372616d626c6564204567677320537570657221")
+got back:
+"0f3616b9635ca90d63d9f130200c3a539ae01f71a143291fa60958b2eb6f382cc5c082a655f570311a02cef3a197bfc4"
+I determined CBC was used
+** pass
+
+asked the oracle:
+#"The Sneetches and Other Stories" (hex "54686520536e6565746368657320616e64204f746865722053746f72696573")
+got back:
+"a253a865470779efb013888203de1066f493e612323e1e06575688159b6a550e75525cad5d4107df98a8b32d83dff9c3"
+I determined CBC was used
+** pass
+
+asked the oracle:
+#"Thidwick the Big-Hearted Moose" (hex "546869647769636b20746865204269672d48656172746564204d6f6f7365")
+got back:
+"e31b83fd5437380f12ee7089caa6333fe4b3fa6e6a685873cf1872ac59c4f0885912cc2a36a1deead6350a3e592e5440"
+I determined CBC was used
+** pass
+
+asked the oracle:
+#"Yertle the Turtle and Other Stories" (hex "596572746c652074686520547572746c6520616e64204f746865722053746f72696573")
+got back:
+"e9794ae4ac8d8fab573620b09adec812ae4778fd1069ee34018e3d7eef63de626d4904ba1982dce040d0d8db5af5596ca7a31a2369ce1550e1c109e2671ad76d"
+I determined ECB was used
+** pass
+

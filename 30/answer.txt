@@ -1,0 +1,16 @@
+secret key: cabaret
+Using message #"comment1=cooking%20MCs;userdata=foo;comment2=%20like%20a%20pound%20of%20bacon"
+Message length: 77 bytes
+Authenticated signature is d1041d1ea9e3ae99da7c83fd7c0aa0e1
+signature is valid
+new message is #";admin=true"
+checking key length: 1
+checking key length: 2
+checking key length: 3
+checking key length: 4
+checking key length: 5
+checking key length: 6
+checking key length: 7
+full message is: #"comment1=cooking%20MCs;userdata=foo;comment2=%20like%20a%20pound%20of%20bacon\200\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\240\2\0\0\0\0\0\0;admin=true"
+the valid MD is: "beabc10ce29303a2dc66efab70fd63ae"
+with key length of 7 bytes and glue pad of "800000000000000000000000000000000000000000000000000000000000000000000000a002000000000000"

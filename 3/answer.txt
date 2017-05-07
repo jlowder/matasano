@@ -1,0 +1,2 @@
+Best candidate: 88 (ascii "X") with score 0.6706441176470586
+"Cooking MC's like a pound of bacon"

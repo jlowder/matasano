@@ -1,0 +1,220 @@
+Answers for set4:
+
+// ------------------------------------------------------------
+
+25. Output of running racket on "25/test.rkt":
+
+Recovered plaintext: I'm back and I'm ringin' the bell 
+A rockin' on the mike while the fly girls yell 
+In ecstasy in the back of me 
+Well that's my DJ Deshay cuttin' all them Z's 
+Hittin' hard and the girlies goin' crazy 
+Vanilla's on the mike, man I'm not lazy. 
+
+I'm lettin' my drug kick in 
+It controls my mouth and I begin 
+To just let it flow, let my concepts go 
+My posse's to the side yellin', Go Vanilla Go! 
+
+Smooth 'cause that's the way I will be 
+And if you don't give a damn, then 
+Why you starin' at me 
+So get off 'cause I control the stage 
+There's no dissin' allowed 
+I'm in my own phase 
+The girlies sa y they love me and that is ok 
+And I can dance better than any kid n' play 
+
+Stage 2 -- Yea the one ya' wanna listen to 
+It's off my head so let the beat play through 
+So I can funk it up and make it sound good 
+1-2-3 Yo -- Knock on some wood 
+For good luck, I like my rhymes atrocious 
+Supercalafragilisticexpialidocious 
+I'm an effect and that you can bet 
+I can take a fly girl and make her wet. 
+
+I'm like Samson -- Samson to Delilah 
+There's no denyin', You can try to hang 
+But you'll keep tryin' to get my style 
+Over and over, practice makes perfect 
+But not if you're a loafer. 
+
+You'll get nowhere, no place, no time, no girls 
+Soon -- Oh my God, homebody, you probably eat 
+Spaghetti with a spoon! Come on and say it! 
+
+VIP. Vanilla Ice yep, yep, I'm comin' hard like a rhino 
+Intoxicating so you stagger like a wino 
+So punks stop trying and girl stop cryin' 
+Vanilla Ice is sellin' and you people are buyin' 
+'Cause why the freaks are jockin' like Crazy Glue 
+Movin' and groovin' trying to sing along 
+All through the ghetto groovin' this here song 
+Now you're amazed by the VIP posse. 
+
+Steppin' so hard like a German Nazi 
+Startled by the bases hittin' ground 
+There's no trippin' on mine, I'm just gettin' down 
+Sparkamatic, I'm hangin' tight like a fanatic 
+You trapped me once and I thought that 
+You might have it 
+So step down and lend me your ear 
+'89 in my time! You, '90 is my year. 
+
+You're weakenin' fast, YO! and I can tell it 
+Your body's gettin' hot, so, so I can smell it 
+So don't be mad and don't be sad 
+'Cause the lyrics belong to ICE, You can call me Dad 
+You're pitchin' a fit, so step back and endure 
+Let the witch doctor, Ice, do the dance to cure 
+So come up close and don't be square 
+You wanna battle me -- Anytime, anywhere 
+
+You thought that I was weak, Boy, you're dead wrong 
+So come on, everybody and sing this song 
+
+Say -- Play that funky music Say, go white boy, go white boy go 
+play that funky music Go white boy, go white boy, go 
+Lay down and boogie and play that funky music till you die. 
+
+Play that funky music Come on, Come on, let me hear 
+Play that funky music white boy you say it, say it 
+Play that funky music A little louder now 
+Play that funky music, white boy Come on, Come on, Come on 
+Play that funky music 
+
+
+// ------------------------------------------------------------
+
+26. Output of running racket on "26/test.rkt":
+
+using input: ":::::::::::::::::admin<true:::::::::::::"
+encrypted response (hex):
+0xebe422d662cc19516d0ab63b73d096f9adb97ff644d15615230cab3079cd99a3b2b175813d98575a6a53e36e2283c2a4b2ea2bd66ecc5114221cbc6e2283c2a4b2b175813d98575a6b0ab63975dc96eabab66a8937ce040b354ceb64799ccaaef8e43ad563875f503f0ffc6628db99fde7e5
+result of decryption test on this result as-is: false
+using this bitmask to muck with the cyphertext (at block #4): (hex) 0x01000000000001000000000100000100
+encrypted response after mucking with it (hex):
+0xebe422d662cc19516d0ab63b73d096f9adb97ff644d15615230cab3079cd99a3b3ea2bd66ecc5014221cbc6f2283c3a4b2ea2bd66ecc5114221cbc6e2283c2a4b2b175813d98575a6b0ab63975dc96eabab66a8937ce040b354ceb64799ccaaef8e43ad563875f503f0ffc6628db99fde7e5
+result of decryption test on the mucked response: true **pass
+
+// ------------------------------------------------------------
+
+27. Output of running racket on "27/test.rkt":
+
+using input: "AAAAAAAAAAAAAAABBBBBBBBBBBBBBBCCCCCCCCCCCCCCC"
+encrypted response (hex):
+0x8c6bac21afdf28b8b688df82af7d92ddc70172505dfa4c9a5d63f3c63bfe531ad011cb55f6092c1d7b999e6927e55539
+result of decryption test on this result as-is: false
+invalid-pad: The PKCS7 padding is not correct on #"AAAAAAAAAAAAAAAB\212\36\206e\2774\241CA\372n'_\2106\23\5\332\"\201\367\\\344WQ\236\1\316\354B\232\266"
+derived key: "449b63c0b61da51610df408fad03dbf4"
+attempting to decrypt ct with derived key: "AAAAAAAAAAAAAAABBBBBBBBBBBBBBBCCCCCCCCCCCCCCC" **pass
+
+// ------------------------------------------------------------
+
+28. Output of running racket on "28/test.rkt":
+
+Using message #"But you seem like clean and virtuous boys."
+Authenticated signature is b91fe08cc8e2ccb79683a56fc2ed14df0e76206c
+signature is valid
+changing one bit in the signature: b91fe08cc8e2ccb79683a56fc2ed14df0e76206d
+checking mucked signature with valid message: invalid
+changing one bit in the message: #"But you seem like clean and virtuous boys/"
+checking valid signature against mucked message: invalid
+trying to fabricate a MAC: e23cecc4a6164a77edbb9c0fca9b608728361594
+checking my faked MAC: invalid
+
+// ------------------------------------------------------------
+
+29. Output of running racket on "29/test.rkt":
+
+secret key: chameleon
+Using message #"comment1=cooking%20MCs;userdata=foo;comment2=%20like%20a%20pound%20of%20bacon"
+Message length: 77 bytes
+Authenticated signature is e0f91677c369c5cefd4d92766617dacb570a9f28
+signature is valid
+new message is #";admin=true"
+full message is: #"comment1=cooking%20MCs;userdata=foo;comment2=%20like%20a%20pound%20of%20bacon\200\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\2\260;admin=true"
+the valid MD is: "3c187f235497840480487d131cf0572da9380ba3"
+with key length of 9 bytes and glue pad of "8000000000000000000000000000000000000000000000000000000000000000000000000000000002b0"
+
+// ------------------------------------------------------------
+
+30. Output of running racket on "30/test.rkt":
+
+secret key: cabaret
+Using message #"comment1=cooking%20MCs;userdata=foo;comment2=%20like%20a%20pound%20of%20bacon"
+Message length: 77 bytes
+Authenticated signature is d1041d1ea9e3ae99da7c83fd7c0aa0e1
+signature is valid
+new message is #";admin=true"
+checking key length: 1
+checking key length: 2
+checking key length: 3
+checking key length: 4
+checking key length: 5
+checking key length: 6
+checking key length: 7
+full message is: #"comment1=cooking%20MCs;userdata=foo;comment2=%20like%20a%20pound%20of%20bacon\200\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\240\2\0\0\0\0\0\0;admin=true"
+the valid MD is: "beabc10ce29303a2dc66efab70fd63ae"
+with key length of 7 bytes and glue pad of "800000000000000000000000000000000000000000000000000000000000000000000000a002000000000000"
+
+// ------------------------------------------------------------
+
+31. Output of running racket on "31/test.rkt":
+
+initial HTML: #"HTTP/1.1 500 Okay\r\nDate: Thu, 05 Sep 2013 16:29:06 GMT\r\nLast-Modified: Thu, 05 Sep 2013 16:29:06 GMT\r\nServer: Racket\r\nContent-Type: text/html; charset=utf-8\r\nTransfer-Encoding: chunked\r\n\r\n15c\r\n<html><head><title>HMAC checker</title></head><body><h1>HMAC Checker: FAIL</h1><div class=\"posts\"><div class=\"post\"><p>file: foo</p><p>expected signature: initial fetch</p><p>actual signature:   2ff6b60be581c6094deb1ccfa8c0d9735ff4607e</p></div></div><form><input name=\"file\" /><input name=\"signature\" /><input type=\"submit\" /></form></body></html>\r\n0\r\nContent-Length: 348\r\n\r\n"
+Signature not valid (as expected)
+so far: "2f"
+so far: "2ff6"
+so far: "2ff6b6"
+so far: "2ff6b60b"
+so far: "2ff6b60be5"
+so far: "2ff6b60be581"
+so far: "2ff6b60be581c6"
+so far: "2ff6b60be581c609"
+so far: "2ff6b60be581c6094d"
+so far: "2ff6b60be581c6094deb"
+so far: "2ff6b60be581c6094deb1c"
+so far: "2ff6b60be581c6094deb1ccf"
+so far: "2ff6b60be581c6094deb1ccfa8"
+so far: "2ff6b60be581c6094deb1ccfa8c0"
+so far: "2ff6b60be581c6094deb1ccfa8c0d9"
+so far: "2ff6b60be581c6094deb1ccfa8c0d973"
+so far: "2ff6b60be581c6094deb1ccfa8c0d9735f"
+so far: "2ff6b60be581c6094deb1ccfa8c0d9735ff4"
+so far: "2ff6b60be581c6094deb1ccfa8c0d9735ff460"
+so far: "2ff6b60be581c6094deb1ccfa8c0d9735ff4607e"
+final signature: 2ff6b60be581c6094deb1ccfa8c0d9735ff4607e
+final HTML: #"HTTP/1.1 200 Okay\r\nDate: Thu, 05 Sep 2013 20:45:55 GMT\r\nLast-Modified: Thu, 05 Sep 2013 20:45:55 GMT\r\nServer: Racket\r\nContent-Type: text/html; charset=utf-8\r\nTransfer-Encoding: chunked\r\n\r\n17a\r\n<html><head><title>HMAC checker</title></head><body><h1>HMAC Checker: SUCCESS</h1><div class=\"posts\"><div class=\"post\"><p>file: foo</p><p>expected signature: 2ff6b60be581c6094deb1ccfa8c0d9735ff4607e</p><p>actual signature:   2ff6b60be581c6094deb1ccfa8c0d9735ff4607e</p></div></div><form><input name=\"file\" /><input name=\"signature\" /><input type=\"submit\" /></form></body></html>\r\n0\r\nContent-Length: 378\r\n\r\n"
+**pass
+
+// ------------------------------------------------------------
+
+32. Output of running racket on "32/test.rkt":
+
+initial HTML: #"HTTP/1.1 500 Okay\r\nDate: Thu, 05 Sep 2013 21:22:41 GMT\r\nLast-Modified: Thu, 05 Sep 2013 21:22:41 GMT\r\nServer: Racket\r\nContent-Type: text/html; charset=utf-8\r\nTransfer-Encoding: chunked\r\n\r\n15c\r\n<html><head><title>HMAC checker</title></head><body><h1>HMAC Checker: FAIL</h1><div class=\"posts\"><div class=\"post\"><p>file: foo</p><p>expected signature: initial fetch</p><p>actual signature:   8913a06237dfe5c059f4693636dee7203ac422cc</p></div></div><form><input name=\"file\" /><input name=\"signature\" /><input type=\"submit\" /></form></body></html>\r\n0\r\nContent-Length: 348\r\n\r\n"
+Signature not valid (as expected)
+so far: "89"
+so far: "8913"
+so far: "8913a0"
+so far: "8913a062"
+so far: "8913a06237"
+so far: "8913a06237df"
+so far: "8913a06237dfe5"
+so far: "8913a06237dfe5c0"
+so far: "8913a06237dfe5c059"
+so far: "8913a06237dfe5c059f4"
+so far: "8913a06237dfe5c059f469"
+so far: "8913a06237dfe5c059f46936"
+so far: "8913a06237dfe5c059f4693636"
+so far: "8913a06237dfe5c059f4693636de"
+so far: "8913a06237dfe5c059f4693636dee7"
+so far: "8913a06237dfe5c059f4693636dee720"
+so far: "8913a06237dfe5c059f4693636dee7203a"
+so far: "8913a06237dfe5c059f4693636dee7203ac4"
+so far: "8913a06237dfe5c059f4693636dee7203ac422"
+so far: "8913a06237dfe5c059f4693636dee7203ac422cc"
+final signature: 8913a06237dfe5c059f4693636dee7203ac422cc
+final HTML: #"HTTP/1.1 200 Okay\r\nDate: Thu, 05 Sep 2013 21:32:19 GMT\r\nLast-Modified: Thu, 05 Sep 2013 21:32:19 GMT\r\nServer: Racket\r\nContent-Type: text/html; charset=utf-8\r\nTransfer-Encoding: chunked\r\n\r\n17a\r\n<html><head><title>HMAC checker</title></head><body><h1>HMAC Checker: SUCCESS</h1><div class=\"posts\"><div class=\"post\"><p>file: foo</p><p>expected signature: 8913a06237dfe5c059f4693636dee7203ac422cc</p><p>actual signature:   8913a06237dfe5c059f4693636dee7203ac422cc</p></div></div><form><input name=\"file\" /><input name=\"signature\" /><input type=\"submit\" /></form></body></html>\r\n0\r\nContent-Length: 378\r\n\r\n"
+**pass

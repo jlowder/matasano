@@ -1,0 +1,7 @@
+using input: "AAAAAAAAAAAAAAABBBBBBBBBBBBBBBCCCCCCCCCCCCCCC"
+encrypted response (hex):
+0x8c6bac21afdf28b8b688df82af7d92ddc70172505dfa4c9a5d63f3c63bfe531ad011cb55f6092c1d7b999e6927e55539
+result of decryption test on this result as-is: false
+invalid-pad: The PKCS7 padding is not correct on #"AAAAAAAAAAAAAAAB\212\36\206e\2774\241CA\372n'_\2106\23\5\332\"\201\367\\\344WQ\236\1\316\354B\232\266"
+derived key: "449b63c0b61da51610df408fad03dbf4"
+attempting to decrypt ct with derived key: "AAAAAAAAAAAAAAABBBBBBBBBBBBBBBCCCCCCCCCCCCCCC" **pass

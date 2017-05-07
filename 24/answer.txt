@@ -1,0 +1,63 @@
+using seed 8292
+encrypting #"Take your stinking paws off me, you damned dirty ape!"
+0x6c6ad70bc094534a75b9dae8e8a63d8765947c00c0d3084cd081dcdd4b5e8d653ba7309822affffc7eca05e45c0d5904cf87cde198
+decrypting 0x6c6ad70bc094534a75b9dae8e8a63d8765947c00c0d3084cd081dcdd4b5e8d653ba7309822affffc7eca05e45c0d5904cf87cde198
+#"Take your stinking paws off me, you damned dirty ape!"
+**pass
+
+encrypting #"You know the saying, Human see, human do."
+0x6164c94e8b83534827edc1f9a1bb3797629d3b5c81ec0e01de899a8e435e8d652abd28d928eef6fd35
+decrypting 0x6164c94e8b83534827edc1f9a1bb3797629d3b5c81ec0e01de899a8e435e8d652abd28d928eef6fd35
+#"You know the saying, Human see, human do."
+**pass
+
+encrypting #"Doctor, would an ape make a human doll that TALKS?"
+0x7c64df1a8f9f101f70f6dcf0e5e837802b922c1581c91a07dac7dbdd4e4ecc242ce821d72aa2b2e673cf51a0613e6136bcd9
+decrypting 0x7c64df1a8f9f101f70f6dcf0e5e837802b922c1581c91a07dac7dbdd4e4ecc242ce821d72aa2b2e673cf51a0613e6136bcd9
+#"Doctor, would an ape make a human doll that TALKS?"
+**pass
+
+encrypting #"Some apes, it seems, are more equal than others."
+0x6b64d10bc08c4c5a74b589f5f5e8258b6e9e2f5c81c509099f8ad58f431bc43437a9299832a6f3fc3bc151e8500d5e53
+decrypting 0x6b64d10bc08c4c5a74b589f5f5e8258b6e9e2f5c81c509099f8ad58f431bc43437a9299832a6f3fc3bc151e8500d5e53
+#"Some apes, it seems, are more equal than others."
+**pass
+
+cyphertext of partially known string:
+"04505bc9eda65bbe6a3ac7b031b59183c807a10ee97223620bbc89a4afce92f2e26004f9078fd3d35aef64c1743e6c3c"
+0
+1000
+2000
+3000
+4000
+5000
+6000
+7000
+8000
+found key: 8292
+decoded secret: #"<[\347\247\rKg\201m\243n,\260}\307m\303\364\375~H\326X\16\264[3Y\211\3653\267\240\250AAAAAAAAAAAAAA"
+**pass
+
+Testing token strings that "are" MT19937-based:
+"8ebed4c0e8b59ec3d8efc04657f17da0" is based on MT19937
+**pass
+"471781af4cd00f833eac6f8d5e09890b" is based on MT19937
+**pass
+"2bed1edb3cac946e2bf081691e86869b" is based on MT19937
+**pass
+"0874cf35d17809809258ba959ab8c8c9" is based on MT19937
+**pass
+"81e713ab344e79beea8fda966bcebcee" is based on MT19937
+**pass
+
+Testing token strings that "are not" MT19937-based:
+"49474944a89b989" is not based on MT19937
+**pass
+"8c90d433ffe3434" is not based on MT19937
+**pass
+"435894893cde993" is not based on MT19937
+**pass
+"343560fea0900ab" is not based on MT19937
+**pass
+"c34095985984985" is not based on MT19937
+**pass
